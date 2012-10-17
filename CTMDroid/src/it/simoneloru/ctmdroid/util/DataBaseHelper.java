@@ -1,6 +1,6 @@
 package it.simoneloru.ctmdroid.util;
-import it.simoneloru.ctmdroid.CTMDroidDatabase;
 import it.simoneloru.ctmdroid.R;
+import it.simoneloru.ctmdroid.database.CTMDroidDatabase;
 
 import java.io.BufferedReader;
 import java.io.IOException;

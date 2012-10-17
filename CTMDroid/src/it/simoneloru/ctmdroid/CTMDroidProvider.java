@@ -1,5 +1,6 @@
 package it.simoneloru.ctmdroid;
 
+import it.simoneloru.ctmdroid.database.CTMDroidDatabase;
 import android.app.SearchManager;
 import android.content.ContentProvider;
 import android.content.ContentResolver;

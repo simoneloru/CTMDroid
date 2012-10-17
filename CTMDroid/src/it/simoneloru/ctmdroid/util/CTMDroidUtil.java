@@ -11,13 +11,18 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Resources;
 
-public class CTMDroidUtilities {
+public class CTMDroidUtil {
 	
 	private static int cTheme;
 
 	public final static int THEME_DEFAULT = 0;
 	public final static int THEME_WHITE = 1;
 	public final static int THEME_BLACK = 2;
+	
+	public static final String PREF_DISC = "disc";
+	public static final String FAV_ACTION = "favAction";
+	public static final int DIALOG_DISCLAIMER = 0;
+	public static final int DIALOG_HELP = 1;
 
 	public static void changeToTheme(Activity activity, int theme)
 	{

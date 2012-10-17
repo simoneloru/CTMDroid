@@ -1,6 +1,9 @@
-package it.simoneloru.ctmdroid;
+package it.simoneloru.ctmdroid.activity;
 
-import it.simoneloru.ctmdroid.util.CTMDroidUtilities;
+import it.simoneloru.ctmdroid.R;
+import it.simoneloru.ctmdroid.action.RefreshAction;
+import it.simoneloru.ctmdroid.database.CTMDroidDatabase;
+import it.simoneloru.ctmdroid.util.CTMDroidUtil;
 
 import java.net.URI;
 import java.util.ArrayList;
@@ -72,7 +75,10 @@ public class CTMDroidResultActivity extends Activity {
 		request.setURI(new URI(URI));
 		request.addHeader("Referer", URI);
 
-		Cursor codeCursor = ctmDb.getRoad(Long.toString(getIntent().getLongExtra(getPackageName() + ".busStopCodeId", -1)), new String[] { CTMDroidDatabase.KEY_CODE });
+		Cursor codeCursor = ctmDb.getRoad(
+				Long.toString(getIntent().getLongExtra(
+						getPackageName() + ".busStopCodeId", -1)),
+				new String[] { CTMDroidDatabase.KEY_CODE });
 		String code = codeCursor.getString(0);
 		List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
 		nameValuePairs.add(new BasicNameValuePair("mode", "1"));
@@ -81,18 +87,26 @@ public class CTMDroidResultActivity extends Activity {
 		nameValuePairs.add(new BasicNameValuePair("linenames", "-1"));
 		nameValuePairs.add(new BasicNameValuePair("ptsearch", "Ricerca"));
 		Calendar now = Calendar.getInstance();
-		nameValuePairs.add(new BasicNameValuePair("pt_day", Integer.toString(now.get(Calendar.DAY_OF_MONTH))));
-		nameValuePairs.add(new BasicNameValuePair("pt_month", Integer.toString(now.get(Calendar.MONTH) + 1)));
-		nameValuePairs.add(new BasicNameValuePair("pt_year", Integer.toString(now.get(Calendar.YEAR))));
+		nameValuePairs.add(new BasicNameValuePair("pt_day", Integer
+				.toString(now.get(Calendar.DAY_OF_MONTH))));
+		nameValuePairs.add(new BasicNameValuePair("pt_month", Integer
+				.toString(now.get(Calendar.MONTH) + 1)));
+		nameValuePairs.add(new BasicNameValuePair("pt_year", Integer
+				.toString(now.get(Calendar.YEAR))));
 
-		nameValuePairs.add(new BasicNameValuePair("PT_HH_FROM", Integer.toString(now.get(Calendar.HOUR_OF_DAY))));
+		nameValuePairs.add(new BasicNameValuePair("PT_HH_FROM", Integer
+				.toString(now.get(Calendar.HOUR_OF_DAY))));
 		Calendar later = new GregorianCalendar();
 		later.setTime(now.getTime());
 		later.add(Calendar.HOUR_OF_DAY, 1);
-		nameValuePairs.add(new BasicNameValuePair("PT_HH_TO", Integer.toString(later.get(Calendar.HOUR_OF_DAY))));
-		nameValuePairs.add(new BasicNameValuePair("PT_MM_FROM", Integer.toString(now.get(Calendar.MINUTE))));
-		nameValuePairs.add(new BasicNameValuePair("PT_MM_TO", Integer.toString(later.get(Calendar.MINUTE))));
-		UrlEncodedFormEntity urlEncodedFormEntity = new UrlEncodedFormEntity(nameValuePairs);
+		nameValuePairs.add(new BasicNameValuePair("PT_HH_TO", Integer
+				.toString(later.get(Calendar.HOUR_OF_DAY))));
+		nameValuePairs.add(new BasicNameValuePair("PT_MM_FROM", Integer
+				.toString(now.get(Calendar.MINUTE))));
+		nameValuePairs.add(new BasicNameValuePair("PT_MM_TO", Integer
+				.toString(later.get(Calendar.MINUTE))));
+		UrlEncodedFormEntity urlEncodedFormEntity = new UrlEncodedFormEntity(
+				nameValuePairs);
 		request.setEntity(urlEncodedFormEntity);
 		execute = defaultHttpClient.execute(request);
 		resultWebView = (WebView) findViewById(R.id.webview);
@@ -101,11 +115,14 @@ public class CTMDroidResultActivity extends Activity {
 		if (handleResponse.contains("Dati non disponibili")) {
 			return NODATA;
 		} else {
-			String body = handleResponse.substring(handleResponse.indexOf("<body"), handleResponse.lastIndexOf("</body>"));
-			String homehtm = CTMDroidUtilities.LoadFile("home.htm", getResources());
+			String body = handleResponse.substring(
+					handleResponse.indexOf("<body"),
+					handleResponse.lastIndexOf("</body>"));
+			String homehtm = CTMDroidUtil.LoadFile("home.htm", getResources());
 			homehtm = homehtm.replace("$placeholder$", body);
 			Log.i("CTM", homehtm);
-			resultWebView.loadDataWithBaseURL("file:///android-asset/", homehtm, "text/html", "utf-8", null);
+			resultWebView.loadDataWithBaseURL("file:///android-asset/",
+					homehtm, "text/html", "utf-8", null);
 			resultWebView.setTag(homehtm);
 			return null;
 		}
@@ -113,10 +130,14 @@ public class CTMDroidResultActivity extends Activity {
 
 	private void actionBarManage() {
 		final ActionBar actionBar = (ActionBar) findViewById(R.id.actionbar);
-		actionBar.setHomeAction(new IntentAction(this, CTMDroidSearchActivity.createIntent(this, CTMDroidSearchActivity.FAV_ACTION), R.drawable.ic_title_home_default));
-//		final Action shareAction = new ShareAction(this, android.R.drawable.ic_menu_share);
-//		actionBar.addAction(shareAction);
-		final Action refreshAction = new RefreshAction(this, R.drawable.ic_action_refresh);
+		actionBar.setHomeAction(new IntentAction(this, CTMDroidSearchActivity
+				.createIntent(this, CTMDroidUtil.FAV_ACTION),
+				R.drawable.ic_title_home_default));
+		// final Action shareAction = new ShareAction(this,
+		// android.R.drawable.ic_menu_share);
+		// actionBar.addAction(shareAction);
+		final Action refreshAction = new RefreshAction(this,
+				R.drawable.ic_action_refresh);
 		actionBar.addAction(refreshAction);
 		actionBar.setTitle(R.string.app_name);
 	}
@@ -126,7 +147,7 @@ public class CTMDroidResultActivity extends Activity {
 		@Override
 		protected String doInBackground(String... params) {
 			try {
-				 return callCtmSite();
+				return callCtmSite();
 			} catch (Exception e2) {
 				e2.printStackTrace();
 				return UKHE;
@@ -139,11 +160,11 @@ public class CTMDroidResultActivity extends Activity {
 				pb.setVisibility(View.GONE);
 				resultWebView.setVisibility(View.GONE);
 				showDialog(0);
-			} else  if(NODATA.equals(result)){
+			} else if (NODATA.equals(result)) {
 				RelativeLayout rl = (RelativeLayout) findViewById(R.id.unaviable_data);
 				rl.setVisibility(View.VISIBLE);
 				resultWebView.setVisibility(View.GONE);
-			}else {
+			} else {
 				pb.setVisibility(View.GONE);
 				resultWebView.setVisibility(View.VISIBLE);
 			}
@@ -166,65 +187,6 @@ public class CTMDroidResultActivity extends Activity {
 		super.onDestroy();
 		if (ctmDb != null) {
 			ctmDb.close();
-		}
-	}
-
-	public static class RefreshAction extends AbstractAction {
-
-		private Activity mHost;
-
-		public RefreshAction(Activity host, int drawable) {
-			super(drawable);
-			mHost = host;
-		}
-
-		@Override
-		public void performAction(View view) {
-			try {
-				reload();
-			} catch (Exception mnfe) {
-				Toast.makeText(mHost, "error", Toast.LENGTH_SHORT).show();
-			}
-		}
-
-		public void reload() {
-
-			Intent intent = mHost.getIntent();
-			mHost.overridePendingTransition(0, 0);
-			intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-			mHost.finish();
-
-			mHost.overridePendingTransition(0, 0);
-			mHost.startActivity(intent);
-		}
-	}
-	
-	public static class ShareAction extends AbstractAction {
-		
-		private Activity mHost;
-		
-		public ShareAction(Activity host, int drawable) {
-			super(drawable);
-			mHost = host;
-		}
-		
-		@Override
-		public void performAction(View view) {
-			try {
-				shareItem();
-			} catch (Exception mnfe) {
-				Toast.makeText(mHost, "error", Toast.LENGTH_SHORT).show();
-			}
-		}
-		
-		public void shareItem() {
-			final Intent shareIntent = new Intent(android.content.Intent.ACTION_SEND);
-			shareIntent.setType("text/plain");
-			View wv = mHost.findViewById(R.id.webview);
-			if(wv.getTag() != null && wv.getTag() instanceof String){
-				shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, (String) wv.getTag());
-				mHost.startActivity(Intent.createChooser(shareIntent, "Condividi"));
-			}
 		}
 	}
 

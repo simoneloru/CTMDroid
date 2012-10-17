@@ -6,7 +6,8 @@
     android:versionName="1.1"
     >
 
-    <uses-sdk android:minSdkVersion="8" />
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8"/>
+    
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -16,7 +17,7 @@
         android:debuggable="false"
          >
         <activity
-            android:name=".CTMDroidSearchActivity"
+            android:name=".activity.CTMDroidSearchActivity"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Black.NoTitleBar" 
             android:screenOrientation="portrait">
@@ -38,7 +39,7 @@
                 android:value=".CTMDroidSearchActivity" />
         </activity>
         <activity
-            android:name=".CTMDroidResultActivity"
+            android:name=".activity.CTMDroidResultActivity"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Black.NoTitleBar" 
             android:screenOrientation="portrait">

@@ -1,6 +1,9 @@
-package it.simoneloru.ctmdroid;
+package it.simoneloru.ctmdroid.database;
 
-import it.simoneloru.ctmdroid.util.CTMDroidUtilities;
+import it.simoneloru.ctmdroid.R;
+import it.simoneloru.ctmdroid.R.id;
+import it.simoneloru.ctmdroid.R.layout;
+import it.simoneloru.ctmdroid.util.CTMDroidUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,7 +63,7 @@ public class CTMDroidCursorAdapter extends CursorAdapter {
 		cb.setTag(rowId);
 		List<String> favList;
 		if(!"".equals(favSettings)){
-    		favList = CTMDroidUtilities.CsvToArray(favSettings);
+    		favList = CTMDroidUtil.CsvToArray(favSettings);
     		if(favList.contains(cb.getTag())){
     			cb.setChecked(true);
     		}
@@ -72,7 +75,7 @@ public class CTMDroidCursorAdapter extends CursorAdapter {
 	        	String favSettings = settings.getString("fav", "");
 	        	Log.i("fav", "favsetting: "+favSettings);
 	        	if(!"".equals(favSettings)){
-	        		favList = CTMDroidUtilities.CsvToArray(favSettings);
+	        		favList = CTMDroidUtil.CsvToArray(favSettings);
 	        	} else {
 	        		favList = new ArrayList<String>();
 	        	}
@@ -87,7 +90,7 @@ public class CTMDroidCursorAdapter extends CursorAdapter {
 	        		}
 	        	}
 	        	Editor edit = settings.edit();
-				String arrayToCsv = CTMDroidUtilities.ArrayToCsv(favList);
+				String arrayToCsv = CTMDroidUtil.ArrayToCsv(favList);
 				edit.putString("fav", arrayToCsv);
 				Log.i("fav", "arrayToCsv: "+arrayToCsv);
 	        	edit.commit();

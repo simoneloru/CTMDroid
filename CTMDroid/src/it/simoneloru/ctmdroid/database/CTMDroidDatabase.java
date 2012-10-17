@@ -1,6 +1,6 @@
-package it.simoneloru.ctmdroid;
+package it.simoneloru.ctmdroid.database;
 
-import it.simoneloru.ctmdroid.util.CTMDroidUtilities;
+import it.simoneloru.ctmdroid.util.CTMDroidUtil;
 import it.simoneloru.ctmdroid.util.DataBaseHelper;
 
 import java.util.HashMap;
@@ -57,7 +57,7 @@ public class CTMDroidDatabase {
 		   {  
 		      Integer.parseInt(query);  
 		      String selection = KEY_CODE + " LIKE ?";
-		      query = CTMDroidUtilities.fillQueryWithZeros(query);
+		      query = CTMDroidUtil.fillQueryWithZeros(query);
 		      String[] selectionArgs = new String[] {"__"+query};
 		      return query(selection, selectionArgs, columns);
 		   }  
