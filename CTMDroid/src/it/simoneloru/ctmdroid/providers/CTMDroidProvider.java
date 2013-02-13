@@ -1,6 +1,24 @@
-package it.simoneloru.ctmdroid;
+/**
+ * This file is part of C.T.M.Droid.
+ *
+ * C.T.M.Droid is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * C.T.M.Droid is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with C.T.M.Droid.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ */
 
-import it.simoneloru.ctmdroid.database.CTMDroidDatabase;
+package it.simoneloru.ctmdroid.providers;
+
+import it.simoneloru.ctmdroid.databaseUtils.CTMDroidDatabase;
 import android.app.SearchManager;
 import android.content.ContentProvider;
 import android.content.ContentResolver;
@@ -13,7 +31,7 @@ import android.provider.BaseColumns;
 public class CTMDroidProvider extends ContentProvider {
 
 	private CTMDroidDatabase ctmDb;
-	private static final String AUTHORITY = "it.simoneloru.ctmdroid.CTMDroidProvider";
+	private static final String AUTHORITY = "it.simoneloru.ctmdroid.providers.CTMDroidProvider";
 	private static final String CTMDROID_BASE_PATH = "CTMDroid";
 
 	public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/" + CTMDROID_BASE_PATH);

@@ -1,7 +1,25 @@
-package it.simoneloru.ctmdroid.database;
+/**
+ * This file is part of C.T.M.Droid.
+ *
+ * C.T.M.Droid is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * C.T.M.Droid is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with C.T.M.Droid.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ */
 
-import it.simoneloru.ctmdroid.util.CTMDroidUtil;
-import it.simoneloru.ctmdroid.util.DataBaseHelper;
+package it.simoneloru.ctmdroid.databaseUtils;
+
+import it.simoneloru.ctmdroid.utils.CTMDroidUtil;
+import it.simoneloru.ctmdroid.utils.CTMDroidDatabaseHelper;
 
 import java.util.HashMap;
 import java.util.List;
@@ -25,12 +43,12 @@ public class CTMDroidDatabase {
 
 	private SQLiteDatabase readableDatabase;
 
-	private final DataBaseHelper mDatabaseOpenHelper;
+	private final CTMDroidDatabaseHelper mDatabaseOpenHelper;
 
 	private static final HashMap<String, String> mColumnMap = buildColumnMap();
 
 	public CTMDroidDatabase(Context context) {
-		mDatabaseOpenHelper = new DataBaseHelper(context);
+		mDatabaseOpenHelper = new CTMDroidDatabaseHelper(context);
 		readableDatabase = mDatabaseOpenHelper.getReadableDatabase();
 	}
 
@@ -40,8 +58,10 @@ public class CTMDroidDatabase {
 		map.put(KEY_ROAD, KEY_ROAD);
 		map.put(KEY_LINE, KEY_LINE);
 		map.put(BaseColumns._ID, "rowid AS " + BaseColumns._ID);
-		map.put(SearchManager.SUGGEST_COLUMN_INTENT_DATA_ID, "rowid AS " + SearchManager.SUGGEST_COLUMN_INTENT_DATA_ID);
-		map.put(SearchManager.SUGGEST_COLUMN_SHORTCUT_ID, "rowid AS " + SearchManager.SUGGEST_COLUMN_SHORTCUT_ID);
+		map.put(SearchManager.SUGGEST_COLUMN_INTENT_DATA_ID, "rowid AS "
+				+ SearchManager.SUGGEST_COLUMN_INTENT_DATA_ID);
+		map.put(SearchManager.SUGGEST_COLUMN_SHORTCUT_ID, "rowid AS "
+				+ SearchManager.SUGGEST_COLUMN_SHORTCUT_ID);
 		return map;
 	}
 
@@ -53,20 +73,17 @@ public class CTMDroidDatabase {
 	}
 
 	public Cursor getRoadMatches(String query, String[] columns) {
-		try  
-		   {  
-		      Integer.parseInt(query);  
-		      String selection = KEY_CODE + " LIKE ?";
-		      query = CTMDroidUtil.fillQueryWithZeros(query);
-		      String[] selectionArgs = new String[] {"__"+query};
-		      return query(selection, selectionArgs, columns);
-		   }  
-		   catch(Exception e)  
-		   {  
-			   String selection = KEY_ROAD + " MATCH ?";
-			   String[] selectionArgs = new String[] {query+"*"};
-			   return query(selection, selectionArgs, columns);
-		   }  
+		try {
+			Integer.parseInt(query);
+			String selection = KEY_CODE + " LIKE ?";
+			query = CTMDroidUtil.fillQueryWithZeros(query);
+			String[] selectionArgs = new String[] { "__" + query };
+			return query(selection, selectionArgs, columns);
+		} catch (Exception e) {
+			String selection = KEY_ROAD + " MATCH ?";
+			String[] selectionArgs = new String[] { query + "*" };
+			return query(selection, selectionArgs, columns);
+		}
 	}
 
 	public Cursor getRoadIn(List<String> list) {
@@ -82,12 +99,14 @@ public class CTMDroidDatabase {
 		return query(selection, arrayString, null);
 	}
 
-	private Cursor query(String selection, String[] selectionArgs, String[] columns) {
+	private Cursor query(String selection, String[] selectionArgs,
+			String[] columns) {
 		SQLiteQueryBuilder builder = new SQLiteQueryBuilder();
 		builder.setTables(FTS_VIRTUAL_TABLE);
 		builder.setProjectionMap(mColumnMap);
 
-		Cursor cursor = builder.query(readableDatabase, columns, selection, selectionArgs, null, null, null);
+		Cursor cursor = builder.query(readableDatabase, columns, selection,
+				selectionArgs, null, null, null);
 
 		if (cursor == null) {
 			Log.e("error", "cursor=null");

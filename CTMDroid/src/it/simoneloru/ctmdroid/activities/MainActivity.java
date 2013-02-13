@@ -1,12 +1,30 @@
-package it.simoneloru.ctmdroid.activity;
+/**
+ * This file is part of C.T.M.Droid.
+ *
+ * C.T.M.Droid is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * C.T.M.Droid is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with C.T.M.Droid.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ */
 
-import it.simoneloru.ctmdroid.CTMDroidProvider;
+package it.simoneloru.ctmdroid.activities;
+
 import it.simoneloru.ctmdroid.R;
-import it.simoneloru.ctmdroid.action.HelpAction;
-import it.simoneloru.ctmdroid.action.SearchAction;
-import it.simoneloru.ctmdroid.database.CTMDroidCursorAdapter;
-import it.simoneloru.ctmdroid.database.CTMDroidDatabase;
-import it.simoneloru.ctmdroid.util.CTMDroidUtil;
+import it.simoneloru.ctmdroid.actions.HelpAction;
+import it.simoneloru.ctmdroid.actions.SearchAction;
+import it.simoneloru.ctmdroid.databaseUtils.CTMDroidCursorAdapter;
+import it.simoneloru.ctmdroid.databaseUtils.CTMDroidDatabase;
+import it.simoneloru.ctmdroid.providers.CTMDroidProvider;
+import it.simoneloru.ctmdroid.utils.CTMDroidUtil;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ListActivity;
@@ -33,7 +51,7 @@ import com.markupartist.android.widget.ActionBar;
 import com.markupartist.android.widget.ActionBar.Action;
 import com.markupartist.android.widget.ActionBar.IntentAction;
 
-public class CTMDroidSearchActivity extends ListActivity {
+public class MainActivity extends ListActivity {
 
 	private Intent intent;
 	private CTMDroidDatabase ctmDb;
@@ -51,7 +69,7 @@ public class CTMDroidSearchActivity extends ListActivity {
 				.getDefaultSharedPreferences(getApplicationContext());
 		ctmDb = new CTMDroidDatabase(getApplicationContext());
 		intent = new Intent(getApplicationContext(),
-				CTMDroidResultActivity.class);
+				TimetableActivity.class);
 		lv = getListView();
 		intent = getIntent();
 		t = Toast.makeText(getApplicationContext(), R.string.empty_fav,
@@ -89,7 +107,7 @@ public class CTMDroidSearchActivity extends ListActivity {
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
 				intent = new Intent(getApplicationContext(),
-						CTMDroidResultActivity.class);
+						TimetableActivity.class);
 				intent.putExtra(getPackageName() + ".busStopCodeId", id);
 				intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 				startActivity(intent);
@@ -111,14 +129,14 @@ public class CTMDroidSearchActivity extends ListActivity {
 	}
 
 	public static Intent createIntent(Context context) {
-		Intent i = new Intent(context, CTMDroidSearchActivity.class);
+		Intent i = new Intent(context, MainActivity.class);
 		i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		return i;
 	}
 
 	public static Intent createIntent(Context context, String action) {
-		Intent i = new Intent(context, CTMDroidSearchActivity.class);
+		Intent i = new Intent(context, MainActivity.class);
 		i.setAction(action);
 		i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -132,7 +150,7 @@ public class CTMDroidSearchActivity extends ListActivity {
 				android.R.drawable.ic_menu_help));
 		final Action favAction = new IntentAction(getApplicationContext(),
 				createIntent(getApplicationContext(), CTMDroidUtil.FAV_ACTION),
-				R.drawable.ic_action_refresh);
+				R.drawable.ic_action_star);
 		actionBar.addAction(favAction);
 		final Action searchAction = new SearchAction(this,
 				R.drawable.ic_action_search);

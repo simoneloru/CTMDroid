@@ -1,9 +1,27 @@
-package it.simoneloru.ctmdroid.activity;
+/**
+ * This file is part of C.T.M.Droid.
+ *
+ * C.T.M.Droid is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * C.T.M.Droid is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with C.T.M.Droid.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ */
+
+package it.simoneloru.ctmdroid.activities;
 
 import it.simoneloru.ctmdroid.R;
-import it.simoneloru.ctmdroid.action.RefreshAction;
-import it.simoneloru.ctmdroid.database.CTMDroidDatabase;
-import it.simoneloru.ctmdroid.util.CTMDroidUtil;
+import it.simoneloru.ctmdroid.actions.RefreshAction;
+import it.simoneloru.ctmdroid.databaseUtils.CTMDroidDatabase;
+import it.simoneloru.ctmdroid.utils.CTMDroidUtil;
 
 import java.net.URI;
 import java.util.ArrayList;
@@ -23,7 +41,6 @@ import org.apache.http.message.BasicNameValuePair;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.Intent;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -32,14 +49,12 @@ import android.view.View;
 import android.webkit.WebView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import com.markupartist.android.widget.ActionBar;
-import com.markupartist.android.widget.ActionBar.AbstractAction;
 import com.markupartist.android.widget.ActionBar.Action;
 import com.markupartist.android.widget.ActionBar.IntentAction;
 
-public class CTMDroidResultActivity extends Activity {
+public class TimetableActivity extends Activity {
 
 	private static final String UKHE = "ukhe";
 	private static final String NODATA = "no_data";
@@ -130,7 +145,7 @@ public class CTMDroidResultActivity extends Activity {
 
 	private void actionBarManage() {
 		final ActionBar actionBar = (ActionBar) findViewById(R.id.actionbar);
-		actionBar.setHomeAction(new IntentAction(this, CTMDroidSearchActivity
+		actionBar.setHomeAction(new IntentAction(this, MainActivity
 				.createIntent(this, CTMDroidUtil.FAV_ACTION),
 				R.drawable.ic_title_home_default));
 		// final Action shareAction = new ShareAction(this,

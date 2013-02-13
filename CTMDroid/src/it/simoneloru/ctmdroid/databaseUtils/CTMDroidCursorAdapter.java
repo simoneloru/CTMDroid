@@ -1,9 +1,25 @@
-package it.simoneloru.ctmdroid.database;
+/**
+ * This file is part of C.T.M.Droid.
+ *
+ * C.T.M.Droid is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * C.T.M.Droid is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with C.T.M.Droid.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ */
+
+package it.simoneloru.ctmdroid.databaseUtils;
 
 import it.simoneloru.ctmdroid.R;
-import it.simoneloru.ctmdroid.R.id;
-import it.simoneloru.ctmdroid.R.layout;
-import it.simoneloru.ctmdroid.util.CTMDroidUtil;
+import it.simoneloru.ctmdroid.utils.CTMDroidUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,9 +49,6 @@ public class CTMDroidCursorAdapter extends CursorAdapter {
 		super(context, c, autoRequery);
 		mInflater = LayoutInflater.from(context);
 		settings = PreferenceManager.getDefaultSharedPreferences(context);
-		
-		
-		
 	}
 
 	public CTMDroidCursorAdapter(Context context, Cursor c) {
@@ -49,53 +62,55 @@ public class CTMDroidCursorAdapter extends CursorAdapter {
 		TextView tvRoad = (TextView) view.findViewById(R.id.firstLine);
 		TextView tvLine = (TextView) view.findViewById(R.id.secondLine);
 
-		String road = cursor.getString(cursor.getColumnIndex(CTMDroidDatabase.KEY_ROAD));
-		String line = cursor.getString(cursor.getColumnIndex(CTMDroidDatabase.KEY_LINE));
+		String road = cursor.getString(cursor
+				.getColumnIndex(CTMDroidDatabase.KEY_ROAD));
+		String line = cursor.getString(cursor
+				.getColumnIndex(CTMDroidDatabase.KEY_LINE));
 
 		tvRoad.setText(road);
 		tvLine.setText(line);
-		
+
 		String favSettings = settings.getString("fav", "");
-		Log.i("fav", "favsetting: "+favSettings);
-		CheckBox cb = (CheckBox)view.findViewById(R.id.icon);
+		Log.i("fav", "favsetting: " + favSettings);
+		CheckBox cb = (CheckBox) view.findViewById(R.id.icon);
 		long idLong = cursor.getLong(cursor.getColumnIndex(BaseColumns._ID));
 		String rowId = Long.toString(idLong);
 		cb.setTag(rowId);
 		List<String> favList;
-		if(!"".equals(favSettings)){
-    		favList = CTMDroidUtil.CsvToArray(favSettings);
-    		if(favList.contains(cb.getTag())){
-    			cb.setChecked(true);
-    		}
-    	}
+		if (!"".equals(favSettings)) {
+			favList = CTMDroidUtil.CsvToArray(favSettings);
+			if (favList.contains(cb.getTag())) {
+				cb.setChecked(true);
+			}
+		}
 		cb.setFocusable(false);
-	    cb.setOnCheckedChangeListener(new OnCheckedChangeListener() {
-	        public void onCheckedChanged(CompoundButton cb, boolean isChecked) {       
-	        	List<String> favList;
-	        	String favSettings = settings.getString("fav", "");
-	        	Log.i("fav", "favsetting: "+favSettings);
-	        	if(!"".equals(favSettings)){
-	        		favList = CTMDroidUtil.CsvToArray(favSettings);
-	        	} else {
-	        		favList = new ArrayList<String>();
-	        	}
-	        	String id = cb.getTag().toString();
-	        	if(isChecked){
-	        		if(!favList.contains(id)){
-	        			favList.add(id);
-	        		}
-	        	}else{
-	        		if(favList.contains(id)){
-	        			favList.remove(id);
-	        		}
-	        	}
-	        	Editor edit = settings.edit();
+		cb.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+			public void onCheckedChanged(CompoundButton cb, boolean isChecked) {
+				List<String> favList;
+				String favSettings = settings.getString("fav", "");
+				Log.i("fav", "favsetting: " + favSettings);
+				if (!"".equals(favSettings)) {
+					favList = CTMDroidUtil.CsvToArray(favSettings);
+				} else {
+					favList = new ArrayList<String>();
+				}
+				String id = cb.getTag().toString();
+				if (isChecked) {
+					if (!favList.contains(id)) {
+						favList.add(id);
+					}
+				} else {
+					if (favList.contains(id)) {
+						favList.remove(id);
+					}
+				}
+				Editor edit = settings.edit();
 				String arrayToCsv = CTMDroidUtil.ArrayToCsv(favList);
 				edit.putString("fav", arrayToCsv);
-				Log.i("fav", "arrayToCsv: "+arrayToCsv);
-	        	edit.commit();
-	        }           
-	    });
+				Log.i("fav", "arrayToCsv: " + arrayToCsv);
+				edit.commit();
+			}
+		});
 	}
 
 	@Override
@@ -103,6 +118,5 @@ public class CTMDroidCursorAdapter extends CursorAdapter {
 		final View view = mInflater.inflate(R.layout.list_item, parent, false);
 		return view;
 	}
-
 
 }
