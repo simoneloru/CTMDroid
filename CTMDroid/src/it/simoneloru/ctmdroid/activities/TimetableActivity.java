@@ -58,7 +58,7 @@ public class TimetableActivity extends Activity {
 
 	private static final String UKHE = "ukhe";
 	private static final String NODATA = "no_data";
-	private static final String URI = "***";
+	private static final String URI = "http://mapserver.muovetevi.it/pt.asp";
 	private CTMDroidDatabase ctmDb;
 	private WebView resultWebView;
 	private ProgressBar pb;
