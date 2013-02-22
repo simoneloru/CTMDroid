@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CTMDroid</string>
+    <string name="app_version">1.11</string>
+    
+    <string name="search_hint">Nome o numero fermata</string>
+	<string name="star_descr">Bottone preferiti</string>
+	<string name="no_results">Nessun risultato trovato</string>
+	<string name="dontShowAgain">Non mostrare al prossimo avvio</string>
+	<string name="messaggioDisclaimer">CTMDroid è un\'applicazione che utilizza i servizi di www.muovetevi.it per mostrare gli orari dei mezzi di trasporto pubblici. Imprecisioni negli orari sono dovute al servizio offerto da www.muovetevi.it o dal fatto che l\'ora del vostro cellulare non sia sincronizzata con l\'orario della rete dei trasporti pubblici.\nClicca sul "?" per visualizzare la guida.</string>
+	<string name="empty_fav">La lista dei preferiti è vuota.</string>
+	<string name="loading">Caricamento in corso</string>
+	<string name="unknowHost">Errore di connessione.</string>
+	<string name="unaviable_data">\n<b>Spiacenti, dati non disponibili.</b></string>
+	<string name="help_title">Guida</string>
+	<string name="help"><b>Ricerca orari.</b> \nLa ricerca rapida permette di visualizzare gli orari di transito entro un\'ora a partire da quando si seleziona la fermata.\n- Cliccare sulla lente d\'ingrandimento per cercare la fermata desiderata. Scrivendo il nome della fermata o il numero corrispondente presente in ogni fermata, vengono automaticamente suggerite le fermate presenti nel database. È comunque possibile cercare le fermate anche se non presenti nell\'elenco dei suggerimenti. Cliccare sulla fermata desiderata per visualizzare gli orari di transito.\n- Cliccando sulla stella nella barra vengono visualizzate le fermate preferite (se presenti). Cliccare sul nome della fermata per visualizzare gli orari di transito.\n\n<b>Preferiti.</b>\n- Quando viene visualizzato il nome di una fermata cliccare sulla stella a fianco al nome per aggiungere la fermata ai preferiti.\n- Per cancellare una fermata dai preferiti, deselezionare nella pagina dei preferiti la stella a fianco al nome della fermata.</string>
+	<string name="btn_chiudi">Chiudi</string>
+	<string name="btn_email">Invia un\'email allo sviluppatore</string>
+	<string name="email">ctmdroid.dev@gmail.com</string>
+	
+	
+</resources>

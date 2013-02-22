@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_separator">#FF8800</color>
+    <color name="actionbar_background_end">#FF8800</color>
+    <color name="actionbar_background_start">#FFBB33</color>
+</resources> 

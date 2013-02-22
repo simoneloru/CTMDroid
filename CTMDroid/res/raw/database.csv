@@ -1,0 +1,957 @@
+AB0109;via Abruzzi (ang. via Campeda);1,3
+AB0110;via Abruzzi (fronte via Campeda);1,16,3
+AB0894;via Abruzzi lato p.zza S.Michele;1,20,8
+AD0183;viale A. Diaz (campo Coni, piscina comunale);PF,PQ
+AD0241;viale A. Diaz (ang. via Siracusa);PF,PQ,PFS
+AD0265;viale A. Diaz (Uffici Comunali);PF,PQ
+AD0274;viale A. Diaz (fronte via Bottego H Mediterraneo);PF,PQ
+AD0275;viale A. Diaz (ang. via Bottego, H. Mediterraneo);PF,PQ,PFS
+AD0278;viale A. Diaz (ang. via Caboto);PF,PQ
+AD0279;viale A. Diaz (ang. via Ancona);PF,PQ,PFS
+AD0282;viale A. Diaz (fronte Fiera);PF,PQ,PFS
+AD0283;viale A. Diaz (Fiera);PF,PQ
+AD0298;viale A. Diaz (fronte Amsicora);PF,PQ
+AD0632;viale A. Diaz (Banco di Sardegna);PF,PQ,PFS
+AD0917;viale A. Diaz (parcheggi Fiera);PF,PQ
+AE0822;via dell'Aeronautica;
+AF1166;Corso Africa (civ. 20 fronte via Iglesias);19S,19,9A,9
+AF1170;Corso Africa (fronte via Cipro);19S,19,9
+AF1176;Corso Africa Assemini;19S,19,9
+AF1177;Corso Africa Assemini (ang via Cipro);19S,19,9A,9
+AG0583;Capolinea Ist. Agrario;9A
+AG0720;via dell'autonomia regionale (fronte civ.N. 92);1Q,2L
+AG0721;via dell'Autonomia Reg (ang via delle Camelie);1Q,2L
+AG0722;via dell'Autonomia Reg. (serre);1Q,2L
+AG0723;via dell'autonomia Reg (ang. via Palma Fiorita);1Q,2L
+AG0724;via dell'autonomia regionale (fronte civ. N. 60);1Q,2L
+AG0725;via dell'autonomia regionale (cementeria);1Q,2L
+AG0726;via dell'autonomia regionale (ang. via Cixerri);1Q,2L
+AG0727;via dell'autonomia regionale (lato civ. 46 A);1Q,2L
+AG0736;via dell'autonomia Reg (ang. via Menta Fiorita);1Q,2L
+AG0770;via dell'autonomia regionale (ang. via S.Giovanni);1Q,2L
+AG0771;via L. Da Vinci;1Q,2L
+AG0819;via Argentina (Scuola);8H,M
+AG0820;via Argentina (ang. via S.Fulgenzio);8H,M
+AG0852;via dell'autonomia regionale (civ. N. 92);1Q,2L
+AG1129;prolungam. via Argiolas (ang. Via Della Costa);15
+AG1130;prolungam. via Argiolas (fronte via Monserrato);15
+AG1154;via Argiolas;15
+AG1155;via Argiolas (ang. via dei covoni);15
+AG1193;via dell'Argine civ. 51;29S
+AH1133;Via Archimede;
+AH1145;via Archimede;
+AI1127;via delle Agavi;15
+AL0017;via Alghero (ang. via Sonnino);10
+AL0018;via Alghero (ang. via Satta);10
+AL0184;via Alghero ( piazza Repubblica);10
+AL0185;via Alghero (ang. via Dante);10
+AM0112;Via Aldo Marongiu (pressi Cimitero);1
+AM0170;p.zza d'Armi (Facoltà di Ingegneria);
+AM0810;Via Aldo Marongiu (pressi Cimitero) ;1
+AN0451;via sant'Antonio (ang. via Fadda);1Q,PQ
+AN0682;via sant'Antonio;17
+AN0700;via sant'Antonio (ang. via Liguria);1Q,41,PQ
+AN0808;via S. Angelo civ. 28;29S
+AN0904;via Andorra (Capolinea);6
+AQ0313;via Aquilone (lato piazza);3
+AR0515;via s'Arrulloni (Campi Sportivi);1Q,41
+AR0971;via s'Arrulloni (ang. via Silesu);41
+AR0973;via s'Arrulloni (fronte via Silesu);40
+AR0974;via della Musica (ang. via Parini);1Q,40
+AS1000;via Ariosto (ang. via Oslo);41
+AS1113;via Ariosto (ang. via Dublino);41
+AT0317;via Astrolabio;3
+AU1142;via Aresu;20
+AU2004;Via Austria (Quartello) Da Codificare;
+AU2005;Via Austria Quartello (da codificare);41
+AU2006;Via Austria (angolo via Dalla Chiesa) Quartello da;
+AU2007;Via Austria (angolo Via Dalla Chiesa) Quartello da;40
+AV0144;via s. Avendrace (ang. via Piave);1,9A,9
+AV0145;via s. Avendrace (ang. via Montello);1,9A,9
+AV0146;via s. Avendrace (ang. via Flumendosa);1,9A,9
+AV0147;via s. Avendrace (fronte via Flumendosa);1,9A,9
+AV0148;via s. Avendrace (ang. via Coghinas);1,9A,9
+AV0149;via s. Avendrace (ang. v.le Trento);1,9A,9
+AZ0209;via dell'Abbazia (ang. via Conversi);6
+AZ0210;via dell'Abbazia (fronte via Conversi);6
+AZ0211;via dell'Abbazia (ang. via Lione);6
+AZ0212;via dell'Abbazia (ang. via Stoccolma);6
+BA0008;via Bacaredda (ang. via G.Benedetta);6,M
+BA0009;via Bacaredda (fronte via G.Benedetta);6,9M,M
+BA0010;via Bacaredda (Scuola Materna);6,9M,M
+BA0011;via Bacaredda (Conservatorio);6,M
+BA0013;via Bacaredda (fronte Mercato Civico);9M,M
+BA0014;via Bacaredda (lato Mercato);M
+BA0015;via Bacaredda (Min.Finanze);M
+BA0016;via Bacaredda (fronte via Gioberti);9M,M
+BA0813;via Bacaredda (ang. piazza Garibaldi);M
+BA1178;Via Baronia Assemini;19S,19,9
+BC0565;via Bosco Cappuccio;9A,9
+BD0846;via San Benedetto (pressi piscina);19,PF,QSB,QSA
+BD0847;via San Benedetto (ang. via Atene);19,PF,QSB,QSA
+BD0848;via San Benedetto (ang. via Bonn);19,PF,QSB,QSA
+BD0935;via San Benedetto (dopo ang via Fiume);19,PF,QSB,QSA,PFS
+BD0936;via San Benedetto (ang. via Dublino civ 14/B);19,PF,QSB,QSA,PFS
+BD0937;via San Benedetto (ang. via Pindemonte civ 60);19,PF,QSB,QSA,PFS
+BD0938;Via S. Benedetto (ang via Parigi civ 158);19,PF,QSB,QSA,PFS
+BE0195;via San Benedetto (fronte Buon Pastore);1,29,31,30,P
+BE0207;via San Benedetto (fronte Poste);31,30
+BE0208;via San Benedetto (lato Poste);31,30
+BE0217;via San Benedetto (lato Buon Pastore);1,31,30
+BE0678;via Bellini (ang. via Custoza);17
+BE0679;via Bellini (ang.via S.Martino);17
+BI0858;Ospedale Binaghi (Capolinea 10);10
+BI1131;Via Biasi;
+BI1192;Via Biasi (PT);
+BL1115;via Balilla (ang. via Su Planu);15
+BL1122;via Balilla (ang. via Marmilla);15
+BM1152;via Barracca Manna;15
+BM1153;via Barracca Manna ;15
+BM1190;Via Bembo;
+BM1191;Via Bembo (Chiesa);
+BN0345;via Berna (fronte Scuola);6
+BO0266;viale Bonaria (Banco di Sardegna);6,5,31,30,P
+BO0267;viale Bonaria (fronte B.Sardegna);29,6,5,31,30,P
+BO0268;viale Bonaria (Banca CIS);6,5,31,30,P
+BO0269;viale Bonaria (RAI);29,6,5,31,30,P
+BO0276;viale Bonaria (Basilica);5
+BO0277;viale Bonaria (Basilica);5
+BO0747;Viale Bonaria;7
+BR0466;via Brigata Sassari (CTM Point);1Q,19,QSB,QSA,QS,41,40,31
+BR0503;via Brigata Sassari (fronte via della Pace);19,QSB,QSA,QS,30
+BR0509;via Brigata Sassari (ang. via Cagliari);19,QSB,QSA,QS,30
+BR0914;via Brigata Sassari (fronte via Lombardia);19,QSB,QSA,QS,31
+BR0916;via Brigata Sassari (ang via Cagliari);
+BS0074;Via Borgo S. Elia;6
+BS0215;via San Bartolomeo (Ingresso Parcheggi);6,5
+BS0323;Borgo S. Elia;6
+BS0324;Borgo S. Elia (angolo viale S. Ferrara);6
+BS0325;via San Bartolomeo (Caserma Carabinieri);6,5
+BS0341;Borgo S. Elia (Viale alberato);6
+BS0342;Via Borgo Sant'Elia;6
+BS0906;Borgo S. Elia (ang. via Livingstone);6
+BT0874;via Basilicata (fronte via Istria);13
+BT0875;via Basilicata (fronte via Dalmazia);13
+BU0065;viale Buon Cammino (Polizia);8N,58
+BU0068;viale Buon Cammino (Anfiteatro Romano);8N,58
+BU0069;V.le Buon Cammino (Capolinea 20);8N,58
+BU0070;viale Buon Cammino (fronte Carcere);8N,58
+BU2000;Via Italia (Fermata da codificare definitivamente);40
+BU2001;Via Bulgaria (quartello) da codificare;41
+BV0672;via Bonorva;17
+CA0082;via Campania (ang. via Mattei);3
+CA0083;via Campania (fronte via Mattei);16,13,3
+CA0085;via Campania (ang. via Capitanata);16,13,3
+CA0610;Via Cagliari (fronte cimitero);9
+CA0613;via Cagliari (Cimitero);19S,19,9A,9
+CA1111;via Cagliari (civ 105 ang. via Dante);41
+CA1112;via Cagliari (civico 201);41
+CA1187;Via Caracalla (civ. 7);29S,29
+CA1188;Via Caracalla Ang. Via C.D'Orso;29S,29
+CA1198;Via Caracalla (dopo passaggio a livello);29S,29
+CA607;Via Cagliari;9
+CA609;Via Cagliari ;9
+CA611;Via Cagliari, ;9
+CB0427;via C. Cabras (civ. N. 108);19,QSB,QSA,QS,8H,8,M
+CB0467;via C. Cabras (ang.via Zuddas);19S,19,QSB,QSA,QS,9M,8H,8,M
+CB0479;via C. Cabras (civ. N. 1);29S,29,19S,19,QSB,QSA,QS,8H,8,M
+CB0481;via C. Cabras (ang via Monte Morganai);19S,19,QSB,QSA,QS,9M,8H,8,M
+CB0547;via C. Cabras (lato Polizia Municipale);19S,19,QSB,QSA,QS,8H,8,M
+CB0654;via C. Cabras (Campi Sportivi);19,QSB,QSA,QS,8H,8,M
+CB0823;via C. Cabras (pressi rotatoria);19S,19,QSB,QSA,QS,9M,8H,8,M
+CB1251;via Cimabue (civ.72);41
+CB1252;Via Cimabue (fronte civ. 21);41
+CC0012;via Cocco Ortu (fronte Mercato);6
+CC0202;via Cocco Ortu (ang. via Foscolo);6
+CD0084;via Cadello (ang. via dei Falletti);8H,8,58,5S
+CD0089;via Cadello (ang. via M. Piovella);13,8
+CD0090;via Cadello (Giardini Provincia);13,8H,8
+CD0091;via Cadello (Seminario);13,8
+CD0092;via Cadello (Fronte Seminario);13,8H,8
+CD0566;via Cadello (ang. via Cogoni);13,8
+CE0863;via Curie;10
+CE2010;Via Cecoslovacchia provvisoria;
+CE2011;Via Cecoslovacchia provvisoria ;
+CF0042;Largo C. Felice (Rinascente);1,8,7,8N,58
+CF0043;largo C. Felice (lato Palazzo Civico);1,8,7,8N,58
+CF0046;largo C. Felice (Yenne);10,8,8N,58
+CG0903;via Cettigne (civ. N. 27);6
+CG0905;via Cettigne (ang. via Costantinopoli);6
+CH0955;via Chiaramonti;18
+CH1101;Via Chiabrera;29S,29
+CH1103;Via Chiabrera ;29S,29
+CI0002;via Ciusa (lato deposito CTM);9M,M
+CI0003;via Ciusa (fronte CTM);16,P,M
+CI0006;via Ciusa (Provincia);16,3,M
+CI0007;via Ciusa (Ist. L. da Vinci);13,3,9M,M
+CI0233;via Ciusa (fronte via S.Carlo);9M,M
+CI0234;via Ciusa (ang. via S.Carlo);16,P,M
+CI0235;via Ciusa (fronte CRAL CTM);16,P,M
+CI0236;via Ciusa (lato CRAL CTM);M
+CI1253;via Cimitero;41
+CI1254;Via Cimitero;
+CL0216;Via Calamattia;19S,19
+CL0337;Calamosca (civ. N. 26);
+CL0338;Calamosca (Strada Faro);
+CL0339;Calamosca (fronte Strada Faro);
+CL0340;Calamosca (Capolinea);
+CL0370;Calamosca (civ. N.15);
+CM0334;Viale Cimitero (lato cimitero di Bonaria);6,31,30
+CM0597;via Carmine (ang. via Desantis);19S,19,9A,9
+CM0598;via Carmine (civ. N. 244);19S,19,9
+CM0599;via Carmine (ang. via Montale);19S,19,9A,9
+CM0600;via Carmine (fronte civ. N. 213);19S,19,9
+CM0601;via Carmine (fronte Chiesa);19S,19,9A,9
+CM0602;via Carmine (civ. N. 184);19S,19,9
+CM0603;via Carmine (ang. via Manno);19S,19,9A,9
+CM0604;via Carmine (pressi Hotel, civ 128);19S,19,9
+CM0605;via Carmine (civ. N. 21);19S,19,9A,9
+CM0606;via Carmine (civ. N. 20);19S,19,9
+CM0878;via Cao di San Marco;13
+CM1174;Centro commerciale;SS
+CO0188;via Dei Conversi (lato Convento);6
+CO0189;via dell'Abbazia (lato fermata Metropolitana);6
+CO0369;Via Corsica;
+CO0458;via Colombo (ang . via Paganini);1Q,19,QSB,QSA,QS
+CO0459;via Colombo (ang. via Foscolo);1Q,19,QSB,QSA,QS
+CO0460;via Colombo (ang via Caboto);19,QSB,QSA,QS,40
+CO0461;via Colombo (ang. via Rossini);1Q,19,QSB,QSA,QS,41
+CO0462;via Colombo (ang. via Meucci);1Q,19,QSB,QSA,QS,40
+CO0463;via Colombo (ang. via Gramsci);1Q,19,QSB,QSA,QS,41
+CO0522;via Colombo (ang. via S. Benedetto);19,QSB,QSA,QS
+CO0523;via Colombo (ang. via Salieri civ. 338);QS
+CO0524;via Colombo (lato Polizia Municipale);19,QSB,QSA,QS
+CO0525;via Colombo (fronte Vigili);19,QSB,QSA,QS
+CO1141;via Ciociaria;20,58
+CO1999;Viale Colombo;
+CP0139;via Carpaccio (fronte Circoscrizione);20
+CP0644;via Costantinopoli (ang. via Atene);6
+CP0883;via Carpaccio (lato Circoscrizione);20
+CP1139;Circonv. Pirri (Lato bar);16
+CQ1140;via Cinquini (Capolinea Parco San Michele);58
+CQ1148;via Cinquini;58
+CR0113;via Is Cornalias (ang. via Cinquini);20
+CR0114;via Is Cornalias (fronte via Sulcis);20
+CR0115;via Is Cornalias (ang. via Sulcis);20
+CR0133;via Is Cornalias (ang. via Giotto);1,20
+CR0803;via Is Cornalias (lato Acquedotto);1,20
+CR0804;via Is Cornalias (fronte via Giotto);1,20
+CR0809;via Is Cornalias (fronte Acquedotto);1,20
+CR0890;via Is Cornalias (ang. via Brianza);20,58
+CS0136;via Crespellani (ang. via Tintoretto);20
+CS0137;via Crespellani (ang. via Masaccio);20
+CS0885;via Crespellani;20
+CS0886;via Crespellan (fronte via Tintoretto);20
+CT0227;via Castiglione;1
+CT0228;via Castiglione ;1
+CT0231;via Castiglione (Campo Sportivo);1
+CT0232;via Castiglione (fronte Scuola Materna);1
+CU0735;Cittadella Universitaria (Capolinea QSA);29S,29,QSA,8
+CU0741;Cittadella Universitaria;29S,29,8
+CU0900;via Cugia (ang via Scano civ 37);10
+CU0918;via Cugia (Liceo dettori);10
+CU0919;via Cugia (ang via Randaccio civ 34);10
+CV1135;via Conte Verde;15
+CZ0051;p.zza Costituzione (Bastione);10
+DA0196;via Dante (Repubblica);31,30,Z,P
+DA0197;via Dante (Repubblica) ;29,31,30,P
+DA0206;via Dante (ang. via Todde);1,29S,29,3
+DA0270;via Dante (Cimitero);31,30,P
+DA0271;via Dante (ang. via S.Lucifero);29,6,31,30,P
+DA0272;via Dante (Biochimico);31,30,P
+DA0273;via Dante (ang. via G.Deledda);29,6,31,30,Z,P
+DA0309;Via Dante (Ex Biochimico);6
+DA0312;Via Dante (Tribunale dei Minorenni);6
+DA0925;Via Danimarca;40
+DA0984;via Danimarca;41
+DA1147;Via DAnte (Lato esattoria);29S,29
+DC0248;via del Canneto (ang. via Vesalio);1
+DD0766;via D. Deliperi (pressi via Carpaccio);1,QSB,QS
+DD0806;via D. Deliperi (fronte Scuola);1,20
+DD0807;via D. Deliperi (Scuola);1,20
+DE0920;Via Dessý (fronte Comune);40
+DG1132;via Duca di Genova;15
+DM0500;via Don Minzoni (ang. via Nazionale);19,QSB,QSA,QS,31
+DM0501;via Don Minzoni (ang. via delle Serre civ 7);19,QSB,QSA,QS,30
+DM0502;via Don Minzoni (ang. via Piria);19,18,QSB,QSA,QS,31
+DM0504;via Don Minzoni (Cimitero);19,QSB,QSA,QS,31
+DM0505;via Don Minzoni (ang. via Guspini civ. 43);19,QSB,QSA,QS,30
+DM0743;via Decio Mure (Capolinea Ist. Alberghiero);29S,8H
+DM0756;via Decio Mure (pressi rotatoria);29S
+DM1128;via delle Mimose;15
+DO0004;via dei Donoratico (ang. via Capula);16,13,3,P
+DO0005;via Dei Donoratico (ang. via Ciusa);16,3,P
+DO0225;via Dei Donoratico (fronte parco giochi);16,3,P
+DO0226;via Dei Donoratico (lato parco giochi);16,13,3,P
+DP0288;via della Pineta (angolo via Milano);6,3
+DP0289;via della Pineta (lato distributore);6,3
+DP0290;via della Pineta (ang. via dei Colombi);6,3
+DP0291;via della Pineta (fronte via dei Colombi);6,3
+DP0292;via della Pineta;6,3
+DP0293;via della Pineta (ang. via Dexart);6,3
+DP0294;via della Pineta (fronte via Venezia);6,5,3
+DP0295;via della Pineta (ang. via Venezia);6,5,3
+DP0296;via della Pineta (fronte Chiesa);6,5,3
+DP0297;via della Pineta (Chiesa);6,5,3
+DP0989;via De Petris (fronte Campo Rosas);40
+DP1102;via De Petris (civ. N. 9);41
+DQ0863;p.zza D'Esquivel;
+DQ1158;Via D'Aquino;15
+DQ1159;Via D'Aquino (fronte caserma Carabinieri);15
+DS0318;Via del Sole (fronte via del Sestante);3
+DS0319;Via del Sole (ang. via del Sestante);3
+DS0336;Quartiere del Sole (Capolinea);3
+DS0959;via delle Serre;18
+DS0960;via delle Serre ;18
+DT0884;via De Martis;20
+DT0896;via De Martis ;20
+DV0414;via L. da Vinci (fronte Hotel Califfo);PF,2L,PFS
+DV0415;via L.da Vinci (Hotel Califfo);PF,2L
+DV0416;via L. da Vinci (fronte Hotel Setar);PF,2L,PFS
+DV0417;via L. da Vinci (Hotel Setar);PF,2L
+DV0419;via L. da Vinci (fronte via Rio Solanas);PF,2L
+DV0420;via L. da Vinci (pressi distributore AGIP);PF,2L,PFS
+DV0421;via L. da Vinci (lato Su Meriagu);PF,2L
+DV0422;via L. da Vinci;PF,2L,PFS
+DV0423;via L. da Vinci (ang. via Taormina);PF,2L
+DV0424;via L. da Vinci (fronte Scuole);PF,2L,PFS
+DV0425;via L. da Vinci (Scuole);PF,2L
+DV0643;via Leonardo da Vinci;17
+DV0728;via L. da Vinci (Loc. Sa Tiacca);PF,2L,PFS
+DV0729;via L. da Vinci (Loc. Sa Tiacca) ;PF,2L
+DV0754;via L. da Vinci (ang via Is Padrinas);PF,2L,PFS
+DV0940;via L. da Vinci (ang. via Rio Solanas);PF,2L,PFS
+DZ0985;via D'Azeglio (civ 45);
+DZ1106;via D'Azeglio (via Mercantini);
+EC0553;Via S'Ecca S' Arrideli (fronte ulivetto);1Q,2L
+EC0712;via S'Ecca s'Arrideli (civ 32);1Q,2L
+EC0713;via S'Ecca s'Arrideli (150 m incrocio);1Q,2L
+EC0714;via S'Ecca s'Arrideli (fronte civ 9);1Q,2L
+EC0715;via S'Ecca s'Arrideli (lato vigna);1Q,2L
+EC0716;via S'Ecca s'Arrideli (civ. N. 31);1Q,2L
+EC0717;via S'Ecca s'Arrideli (ang. via Van Dick);1Q,2L
+EC0718;S'Ecca S'Arrideli (ang. via Van Dick);1Q,2L
+EC0719;via S'Ecca s'Arrideli (fronte via Van Dick);1Q,2L
+EC0853;Via S' Ecca S' Arrideli (civ. 9);1Q,2L
+EL0117;viale Elmas (fronte civ. N.123);9A,9
+EL0124;viale Elmas (fronte civ. N.118);9A,9
+EL0125;viale Elmas (fronte civ. N.73);9A,9
+EL0127;viale Elmas (civ. N. 168);9A,9
+EL0128;viale Elmas (fronte civ. N.176);9A,9
+EL0129;viale Elmas (ang. via dell'Autonomia);9A,9
+EL0130;viale Elmas (Cavalcavia ferroviario);9A,9
+EL0360;viale Elmas (Mercato);9A,9
+EL0361;viale Elmas (fronte civ. N.131);9A,9
+EL0362;viale Elmas;9A,9
+EL0363;viale Elmas (ang.via dell'Industria);9A,9
+EL0577;viale Elmas (Distributore Agip SS 130);19S,19,9A,9
+EL0578;viale Elmas (fronte Distributore Agip SS 130);19S,19,9A,9
+EL0579;viale Elmas (cavalcavia);19S,19,9
+EL0580;viale Elmas (ingresso Aereoporto);19S,19,9
+EL0581;viale Elmas (Ist. Agrario);19S,19,9
+EL0582;viale Elmas (ang. via Peruca);19S,19,9
+EL0680;via Emilio Lussu;17
+EL0681;via E. Lussu (civ. N. 67);17
+EL0691;via E. Lussu (Caserma Carabinieri);17
+EM0104;via Emilia;20,3,8
+EN0303;via Einstein (civ. N. 2);
+EN0304;via Einstein (ang. via Fermi);
+EN0305;via Einstein (civ. N.26);
+EN0306;via Einstein (civ. N. 23);
+ET1124;via E. Toti;15
+EU0913;Corso Europa Assemini;19S,19,9
+EU1163;Corso Europa Assemini ;19S,19,9A,9
+EU1164;Corso Europa (lato case popolari);19S,19,9A,9
+EU1179;Corso Europa Assemini;19S,19,9
+FA0314;via Favonio (ang. via Noto);3
+FA0320;via Favonio (fronte via Garbino);3
+FA1109;via Fadda (fronte via S.Francesco);
+FA1114;via Fadda (ang. Via Angioni);
+FA2013;Via delle Fosse Ardeatine;
+FA2014;Via delle Fosse Ardeatine ;
+FA2015;Via delle Fosse Ardeatine Fronte Giardini ex Vetre;
+FB0452;via F.lli Bandiera;1Q,19,QSB,QSA
+FB0453;via F. Bandiera (ang via Pais);1Q,19,QSB,QSA
+FE0223;via XXVIII Febbraio (fronte Ass.to Lavoro);29S,29,16,3,P
+FE0224;via XXVIII Febbraio (lato Ass.to Lavoro);29S,29,16,13,3,P
+FG0214;via San Fulgenzio (ang. II Traversa);29,8
+FG0737;via San Fulgenzio (lato Scuola);29,8H,8,M
+FI0443;via Fiume (civ. N. 313);PF,PFS
+FI0445;via Fiume (ang. via Umbria civ 167);19,QSB,QSA,40
+FI0446;via Fiume (ang via S.Benedetto);19,QSB,QSA,41
+FI0447;via Fiume (civ 121);19,QSB,QSA
+FI0448;via Fiume (ang via E.Fieramosca);19,QSB,QSA
+FI0449;via Fiume (fronte nuovo rione);PF
+FI0941;via Fiume (fronte civico 313 ingresso Quartu);PF
+FI0942;via Fiume (ang via Della Chiesa);PF,PFS
+FL0413;Flumini;PF,PFS
+FL0494;Flumini (Circonvallazione);1Q,PF,2L
+FL0516;Flumini (pressi cantoniera);1Q,PF,2L
+FL0558;via dell'Autonomia Sarda (fronte via Molinu Coccu);1Q,PF,2L,PFS
+FL0633;via dell'Autonomia Sarda (ang. via Molinu Coccu);1Q,PF
+FM0986;via Fieramosca (ang. via Campanella);40
+FM0987;via Fieramosca;40
+FN0123;via del Fangario;9A,9
+FR0307;via Fracastoro;
+FU0710;Sa Funtanedda (fronte civ. N. 13);1Q,2L
+FU0711;sa Funtanedda (ang. via Carbia);1Q,2L
+GA0496;via Gallus (Edicola);19,QSB,QSA,QS,31
+GA0497;via Gallus ( fronte Torre);19,17,QSB,QSA,QS,30
+GB0054;via Garibaldi;10
+GB0055;via Garibaldi (ang.via E. d'Arborea);10
+GC0299;via G. Cagna (ang. via dei Salinieri);
+GC0301;via G. Cagna (ang. via Curie);10
+GC0302;via G. Cagna (ang. via Baccelli);
+GC0814;Via Giulio Cesare (civ. 266);QSA
+GC0816;via G. Cesare (ang.via S.Angelo);QSA,8H,8,M
+GC0826;Via Giulio Cesare (fronte cimitero);QSA
+GC0829;via G. Cesare (Cimitero);29S,QSA,8
+GC0836;Via Giulio Cesare;QSA
+GC0861;via G. Cagna (civ. N. 68);10
+GC0862;via G. Cagna (ang. via Malpighi);10
+GD0676;via G. Deledda;17
+GG0348;via Gorgona;PF,PQ
+GG0349;Via Gorgona;PF,PQ,PFS
+GH0732;via G. delle Notti (fronte civ. N. 3);20,19S,19
+GH0833;via G. delle Notti (civ. n. 5);20,19S,19
+GI0249;via F. Gioia (fronte Chiesa);1
+GI0250;via F. Gioia (lato Chiesa);1
+GI0251;via F. Gioia (fronte portici);1
+GI0252;via F. Gioia (lato portici);1
+GI0640;via F. Gioia (Capolinea fronte Scuola);1
+GN0080;Giorgino (pensilina villaggio pescatori);8G
+GN0118;via Angioni (ang.via Fadda);
+GN0394;Giorgino (villaggio pescatori);
+GN0564;Giorgino (ex fabbrica);8G
+GN0567;Giorgino (chiesetta S. Efisio _ Capolinea 8A _ );8G
+GN1108;via Mons. Angioni (scuole);41
+GP0760;via Peretti (palazzo INPS);19S,19,QSB,QS
+GP0761;via Peretti (fronte INPS, asse mediano);19S,19,QSB,QS
+GP0762;via Peretti (fronte Osp.Brotzu);19S,19,QSB,QS
+GP0763;via Peretti (lato Osp.Brotzu);19S,19,QSB,QS
+GP0764;via Peretti (pressi ASL);1,19S,19,QSB,QS
+GP0765;via Peretti ( di fronte ASL);1,19S,19,QSB,QS
+GQ0380;Lungomare Saline (dietro AIAS in linea d'area);PF,QS,PQ,PFS
+GQ0383;golfo di Quartu S.E. (lato lido Finanza);PF,QS,PQ
+GQ0384;Golfo di Quartu S.E. (fronte lido Carabinieri);PF,QS,PQ,PFS
+GQ0385;golfo di Quartu S.E. (pressi La Marinella/Bussola);PF,QS,PQ
+GQ0386;golfo di Quartu S.E. (fronte lido VV.FF.);PF,QS,PQ,PFS
+GQ0387;golfo di Quartu S.E. (lato lido Mediterraneo);PF,PQ
+GQ0388;golfo di Quartu S.E. (lato saline);PF,QS,PQ,PFS
+GQ0389;golfo di Quartu S.E. (lato Torre);PF,PQ
+GQ0392;golfo di Quartu S.E. (fronte Torre);PF,PQ
+GQ0394;golfo di Quartu Sant' Elena (fronte lido Medit.);PQ
+GQ0397;golfo di Quartu S.E. (lato Fortino);PF,PQ
+GQ0398;golfo di Quartu S.E. (fronte Fortino);PF,PQ
+GQ0399;golfo di Quartu S.E. (lato Campeggio);PF,PQ
+GQ0400;golfo di Quartu S.E. (fronte Campeggio);PF,PQ
+GS1125;via delle Ginestre (ang. via Toti);15
+GS1126;via degli Agavi (fronte via Dei Castagni);15
+GT0140;via Giotto (civ. N. 44);20
+GT0141;via Giotto (civ. N. 30);20
+GT0658;via San Gottardo (civ.9 Chiesa);17,QSA,8H,8,M
+GT0659;via San Gottardo (civ. N. 5);17,QSA,8H,8,M
+GT0661;via San Gottardo (ang. via Dorgali);17
+GT0662;via San Gottardo (fronte via Q.F. Massimo);17
+GT0663;via San Gottardo (fronte via Scipione);17
+GT0666;Via S. Gottardo;QSA,8H,8,M
+GT0742;via San Gottardo (Capolinea fronte via S.Cipriano);QSA,8H,8,M
+GT0767;via Giotto (ang.via Cornalias);1,20,QSB,QS
+GT0805;via Giotto (ang.via Deliperi);1,20
+GT0881;via Giotto (civ. N. 15);20
+GT0882;via Giotto (civ. N. 33);20
+GT0947;via San Gottardo (stazione FdS);17
+GU0300;via dei Giudicati (Capolinea 13);13
+GV0454;via G. Vico (fronte. via F.lli Rosselli);1Q,19,QSB,QSA
+GV0455;Via G.B Vico (ang via Salvemini);1Q,19,QSB,QSA
+GV0456;via G. Vico (Scuole Elem.);1Q,19,QSB,QSA
+GV0457;via G.B. Vico (lato via Iglesias);1Q,19,QSB,QSA
+GV0992;via G. Vico ( angolo via Manara);1Q,19,QSB,QSA
+GV0997;Via G. Vico (civ. 122);1Q,19,QSB,QSA
+HB0520;Ospedale Brotzu (Capolinea );1
+ID0744;p.zza Indipendenza;7
+IG0860;via Is Guadazzonis (ingresso scuole);10
+IL1123;via Marmilla;15
+IM0086;via Is Mirrionis (ang. via Falletti);3,8
+IM0087;via Is Mirrionis (Chiesa);16,3,8,58
+IM0099;via Is Mirrionis (Ospedale Santissima Trinità);16,3,8,58
+IM0100;via Is Mirrionis (fronte Ospedale);3,8
+IM0101;via Is Mirrionis (ang. via Timavo);16,3,8,58
+IM0102;via Is Mirrionis (lato distributore);3,8
+IM0103;via Is Mirrionis (ang via Montesanto);20,16,3,8
+IM0171;via Is Mirrionis (lato Magistero);8H,58,5S
+IN1136;Ist. Tecnico Marconi;15
+IN1137;prol. Vesalio;15
+IR0077;p.zza Irpinia;6
+IS0668;via Istria (ang. via F.lli Cervi);19,17,QSB,QSA,QS,30
+IS0669;via Istria (ang. via Confalonieri);19,17,QSB,QSA,QS,30
+IT0549;via Italia (pressi passaggio livello);19S,19,QSB,QSA,QS,9M,8H,8,M
+IT0551;via Italia (fronte Vetreria);19S,19,QSB,QSA,QS,9M,8H,8,M
+IT0552;via Italia (lato Vetreria);19S,19,QSB,QSA,QS,8H,8,M
+IT0690;via Italia (ang. via d'Acquisto);19S,19,QSB,QSA,QS,8H,8,M
+IT0815;via Italia (ang. via Sinnai);19S,19,15,QSB,QSA,QS,8H,8,M
+IT0824;via Italia (civ 24 portici, pressi via d'Acquisto);19S,19,15,QSB,QSA,QS,9M,8H,8,M
+JE0131;via Jenner (fronte Osp. Oncologico);13
+JE0559;via Jenner (Osp. Oncologico);13
+JE0560;via Jenner (Osp. Brotzu);13
+JE0842;via Jenner (ang. via Koch);19S,19,13,QSB,QS
+JE0869;via Jenner (fronte via Koch);13
+JE0870;via Jenner (fronte Casa Accoglienza);13
+JE0872;via Jenner (Casa Accoglienza);13
+LB0315;via Libeccio;3
+LE0825;via Legnano;QSB,QS,9M,8H,8,M
+LG0755;Via Alfonso Ligas;P
+LI0078;via Liguria (Liceo Pacinotti);13,3
+LI0079;via Liguria (fronte Pacinotti);16,3
+LI0081;via Liguria (ang. via Istria);16,3
+LI0738;via Liguria (fronte via Istria);13,3
+LI1255;Via Liguria QS;
+LI1267;via Liguria;
+LL0327;via Vergine di Lluc (Capolinea 5);6,5
+LM0909;via Lamarmora;7
+LM0910;Via La Marmora;7
+LO0653;via San Lorenzo;8H,8,M
+LP0180;viale Poetto (ang via Pantelleria);PF,PQ,PFS
+LP0308;viale Poetto (Ponte Vittorio);PF,6,5,3,PQ
+LP0310;v.le Poetto (lato Stadio Amsicora);PF,PQ,PFS
+LP0322;viale Poetto (fronte G.Rossi);PF,PQ
+LP0328;viale Poetto (fronte via Grecale);PF,PQ
+LP0329;viale Poetto (ang. via Grecale);PF,6,5,PQ,PFS
+LP0330;viale Poetto (ang. via S'arrulloni);PF,6,5,PQ,PFS
+LP0331;viale Poetto (ang. via V. Lluc);PF,PQ
+LP0332;viale Poetto (fronte via Pantelleria);PF,PQ
+LP0333;viale Poetto (fronte Monfenera);PF,PQ,PFS
+LP0335;viale Poetto (fronte via dei Tritoni);PF,PQ
+LP0350;Lungomare Poetto (seconda fermata D'Aquila);PF,PQ
+LP0351;Lungomare Poetto (D'Aquila);PF,PQ,PFS
+LP0352;Lungomare Poetto (terza fermata, lato Lido);PF,QS,PQ
+LP0353;Lungomare Poetto (fronte Il Lido);PF,QS,PQ,PFS
+LP0354;Lungomare Poetto (quarta fermata);PF,QS,PQ
+LP0355;Lungomare Poetto (fronte quarta fermata);PF,QS,PQ,PFS
+LP0356;Lungomare Poetto (5^ fermata, Stab. Aeronautica);PF,QS,PQ
+LP0357;Lungomare Poetto (fronte quinta fermata);PF,QS,PQ,PFS
+LP0358;Lungomare Poetto (Ippodromo);PF,QS,PQ,PFS
+LP0359;Lungomare Poetto (fronte sesta fermata);PF,QS,PQ,PFS
+LP0371;viale Poetto (ang. via Tramontana);PF,6,5,3,PQ,PFS
+LP0373;Lungomare Poetto (fronte O Marino ingresso veicol);
+LP0374;Lungomare Poetto (fronte Ippodromo);PF,QS,PQ
+LP0375;Lungomare Poetto (Idrovora, fronte Marino vecchio);PF,QS,PQ,PFS
+LP0376;Lungomare Poetto (ex Osp. Marino);PF,QS,PQ
+LP0377;Lungomare Poetto (lato Ospedale Marino);PF,QS,PQ
+LP0378;Lungomare Poetto (Ospedale);PF,QS,PQ,PFS
+LP0379;Lungomare Saline (lato AIAS in linea d'aria);PF,QS,PQ
+LP0381;Lungomare Poetto (lido Polizia);PF,QS,PQ
+LP0382;Lungo mare Poetto (fronte AIAS);
+LP0391;Lungo mare Poetto (lato ingresso princ O Marino);
+LP0393;Lungo mare Poetto (lato AIAS);
+LP0948;Lungomare Poetto (Stabilim. Esercito, Prefettura);PF,QS,PQ
+LP0XXX;Lungomare Poetto (prima fermata);
+LP1156;Lungo Mare Poetto (Capolinea PN 3P 9P);
+LS0972;via Lungo Saline civ. 5;PF,PQ
+LU0120;via Lunigiana (edicola);3
+LV0071;via La Vega (Clinica);6
+LV0072;via La Vega (ang. v.le S.Vincenzo);6
+LV0961;Centro Commerciale Le Vele;18
+LY0033;Via La Playa (Iper Pan);8G,Z,SS
+LY0035;via La Playa (fronte parcheggio auto rimosse);8G,Z,SS
+LY0037;via La Playa (mercato ittico_ Sa Scaffa);8G
+LY1146;V.le La Playa;29S,29
+MA0218;viale Marconi (fronte Scuola Media);31,30
+MA0219;viale Marconi (fronte via Tommaseo);31,30
+MA0220;viale Marconi (lato Scuola Media);31,30
+MA0229;viale Marconi (ingresso asse mediano);31,30
+MA0230;viale Marconi (fronte asse mediano);31,30
+MA0253;viale Marconi;31,30
+MA0254;viale Marconi (ang. via Vienna);31,30
+MA0255;viale Marconi ( fronte via Vienna);31,30
+MA0256;viale Marconi (fronte Ist.Industr.);31,30
+MA0464;via Marconi (ang. via Volta);1Q,19,QSB,QSA,QS,40,31
+MA0465;via Marconi (Credito Italiano);1Q,19,QSB,QSA,QS,41,30
+MA0470;via Marconi (civ. N. 444);
+MA0478;via Marconi (ang. Via Torricelli));31
+MA0480;Via Marconi (fronte via Torricelli);30
+MA0482;viale Marconi (canale Terramaini ex CIER);31,30
+MA0483;via Marconi (fronte le Vele);31
+MA0492;via D. Manin (portici civ 105);19,QSB,QSA,QS,31
+MA0493;via D. Manin (fronte via Sauro);19,QSB,QSA,QS,31
+MA0519;viale Marconi (canale Terramaini);31,30
+MA0521;viale Marconi (lato Ist.Industr.);31,30
+MA0623;viale Marconi (ang. via Tommaseo);31,30
+MA0636;via Marconi (lato Vigili d.Fuoco);31,30
+MA0911;via Marconi (fronte Clinica);30
+MA0912;via Marconi (Le Vele);30
+MA0915;Via Marconi (lato clinica);31
+MA1265;via Marconi (civ. 568);
+MC0239;via santa Maria Chiara (ang.via Cuoco);QSB,QS,8H,8
+MC0240;via santa Maria Chiara (fronte via Calamattia);19S,19,QSB,QSA,QS,8
+MC0242;via santa Maria Chiara (Scuole);19S,19,QSB,QSA,QS,9M,8H,8,M
+MC0555;via santa Maria Chiara (ang.via Balilla);19S,19,15,QSB,QSA,QS,9M,8H,8,M
+MC1160;Via S.Maria Chiara;15
+MD0966;via Mandas (ang. via Marrubiu);18
+ME0156;via De Magistris (lato Teatro Massimo);5,8
+ME0157;viale Merello (Chiesa);5,8H,8,5S
+ME0164;viale Merello (ang. via Oslavia);8
+ME0165;viale Merello (ang. via Don Bosco);8
+ME0166;viale Merello (fronte Villa Devoto);8H,8,5S
+ME0167;viale Merello (fronte via V. Veneto);8H,8,5S
+ME0168;viale Merello (fronte Facoltà di Ingegneria);8H,5S
+ME0476;via Merello;1Q,19,QSB,QSA
+ME1151;via della Menta;15
+MG0488;via I Maggio (ang. via Deledda);31
+MG0489;via I Maggio (fronte via Deledda);30
+MG0490;via I Maggio (ang. via d. Resistenza);31
+MG0491;via I Maggio (fronte via d. Resistenza);17,30
+MH0877;via Marche;13
+MI0280;via Milano (ang. via Genova);5
+MI0281;via Milano (ang. via Bologna);5
+MI0284;via Milano (ang. via Messina);5
+MI0285;via Milano (ang. via Grosseto);5
+MI0286;via Milano (ang. via Arezzo);5
+MI0287;via Milano (fronte via Arezzo);5
+MM0044;via Mameli (ang. largo C. Felice);1,8
+MM0045;via Mameli (ang.via Sassari);10,1,8
+MM0163;via Mameli (lato assessorati RAS);10,1,8
+MN0049;via Manno (fronte Chiesa);10
+MN0050;via Manno (lato Chiesa);10
+MN0745;via Manno (fronte Bastione);10,7
+MO0246;via Menotti;1
+MO0981;via Mori (ang. via Negri);40
+MP0088;via Mons. Piovella (civ. N. 6);58
+MP0094;via Mons. Piovella (civ. N. 13);58
+MP0095;via Mons. Piovella (fronte Chiesa);58
+MP0892;via Mons. Piovella (ang. via Seminario);
+MR0401;Margine Rosso (civ. N. 6);PF,2L
+MR0402;Margine Rosso (civ. N. 7);PF,2L,PFS
+MR0403;Margine Rosso (fronte via Molaria);PF,2L
+MR0404;Margine Rosso (ang. via Othoca);PF,2L,PFS
+MR0405;Margine Rosso (fronte civ. N. 43);PF,2L
+MR0406;Margine Rosso (ang. via Sussalai);PF,2L,PFS
+MR0407;Margine Rosso (lato Trocadero);PF,2L
+MR0408;Margine Rosso (lato Tennis);PF,2L,PFS
+MR0409;Margine Rosso (fronte via Marco Polo);PF,2L
+MR0410;Margine Rosso (ang. via Marco Polo);PF,2L,PFS
+MR0411;Margine Rosso;PF,2L
+MR0412;Margine Rosso ;PF,2L,PFS
+MR0740;via San Martino (Cimitero);1
+MR0755;Margine Rosso (fronte via Is Padrinas);PF,2L
+MS0172;via is Maglias (angolo via Asiago);20,8
+MS0173;via is Maglias (Ingegneria);20,8
+MS0174;via is Maglias (ang. via dei Punici);20,8
+MS0175;via Is Maglias (angolo via Castelli);
+MS0176;via is Maglias (fronte via Castelli);
+MS0177;via is Maglias (fronte via Montegrappa);20,8
+MS0178;via is Maglias (fronte via Col D'Echele);20,8
+MS0179;via is Maglias (ang. via Doberd );20,8
+MS0181;via is Maglias;20,8
+MS0182;via is Maglias (ang. via Pasubio);20,8
+MS0768;via is Maglias (Ist. Tecnico);20,8
+MS0769;via is Maglias (fronte Ist.Tecnico);20,8
+MT0372;via Montecristo (Lo Spiedo Sardo, D'Aquila);QS
+MT0648;M.C.T.C.;16
+MT0868;via Mattei;13
+MU0970;via della Musica (fronte civ. N.34);1Q,41
+MU0975;via della Musica (civ 46);1Q,40
+MU1261;Via Della Musica (civ 102);1Q
+MZ0670;via Mazzini;17
+NA0619;via Nazionale (ang. via Italia);9A,9
+NA0620;via Nazionale (fronte via Italia);9
+NA0621;Via Nazionale;9A,9
+NA0622;via Nazionale ang. via Stazione;9
+NA0624;via Nazionale (fronte Chiesa);9
+NA0625;Via Nazionale ;9A,9
+NG1107;via Nigra;
+NO0701;p.zza IV Novembre;1Q,40,PQ
+NO0849;p.zza IV Novembre ;1Q,19,QSB,QSA
+NP0706;via N. Paganini (angolo via Fogazzaro);1Q
+NP0707;via N. Paganini (ang. v. Fogazzaro/ v. Zandonai);1Q
+NS0158;via N. Sauro (lato uffici Comune);1,5,8
+NZ0956;via Nazionale (p.zza del Crocifisso);18
+NZ0957;via Nazionale (fronte Vigili);18
+NZ0958;via Nazionale (ang. via Selargius);18
+NZ0962;via Nazionale (ang. via Ballero);18
+NZ0963;via Nazionale (ang. via Quartu);18
+NZ0964;via Nazionale (lato Biblioteca);18
+NZ0965;via Nazionale (vico VI Nazionale);18
+NZ1138;Centro anziani c/o ist. Marconi;15
+OE0245;via Poerio;1
+OS0060;via Ospedale (Macciotta);8N,58
+OS0061;via Ospedale (Ospedale);8N,58
+PA0205;via Pascoli (ang. via Petrarca);1,29,3,P
+PA0817;via Palau;8H,8,M
+PB1183;Via Porto Botte Pass.Livello;29S,29
+PB1184;Via Porto Botte (civ 84);29S,29
+PB1185;Via Porto Botte (Civ. 18);29S,29
+PC0119;Via Abruzzi (Capolinea);16,3
+PC1272;Via della pace;18
+PE0190;via Pergolesi (ang. via Donizetti);6,3
+PE0191;via Pergolesi (ang. via Cimarosa);6,3
+PE0192;via Pergolesi (ang. via Rossini);6,3
+PE0193;via Pergolesi (ang. via S.Benedetto);6,3
+PF0134;via P. della Francesca (civ. N. 5);QSB,QS
+PF0135;via P. della Francesca (ang.de Medici);20
+PF0626;Via Piero Della Francesca (Capolinea linea 20);20
+PF0845;Via Piero Della Francesca;20
+PF0887;via Piero d. Francesca;20
+PG0221;p.zza Giovanni XXIII (lato Chiesa);1,29S,29,3,Z,P
+PG0222;p.zza Giovanni XXIII (lato Chiesa) ;1,29S,29,3,Z,P
+PG0647;p.zza Giovanni XXIII (Chiesa);16
+PG0699;via Portogallo (ang via S.Antonio);1Q,41,PQ
+PG0851;via Portogallo (ang. via Pitz'e Serra);1Q,41,PQ
+PI0075;via Piemonte (fronte Chiesa);6
+PI0703;via Piemonte (lato spiazzo);1Q,40,PQ
+PJ0702;via Principessa Jolanda (ang. via S.Salvatore);
+PJ0982;via Piemonte (ang.via Principessa Iolanda);1Q,40,PQ
+PL0198;via Paoli (ang. via Tola);1,29S,29
+PL0199;via Paoli (ang. via Settembrini);1
+PL0988;via Perda Longa (fronte Scuole Medie);40
+PL0999;via Perda Longa (Scuole Medie);41
+PL1157;Via Platone;15
+PL1161;Via Platone ;15
+PM0028;p.zza Matteotti;PF,PQ,PFS
+PM0029;p.zza Matteotti (capolinea);M
+PM0030;p.zza Matteotti ;31,30,9M
+PM0832;P.zza Mattotti (fronte FS, salvagente centrale);29S,29,8G,8,8N,58
+PM1168;P.zza Matteotti (fronte ARST);Z,SS
+PM1200;P.zza Matteotti (Capolinea Linea 9);9A,9,8H,P
+PO0159;via Pola;10,1,5,8H,8,5S
+PO0979;via E. Porcu (ang. via Bergamo);40
+PO2008;Via Polonia provvisoria;
+PO2009;Via Polonia provvisoria ;
+PR0062;via Porcell;8N,58
+PR0660;via Praga;17
+PR0977;Via Parini (ang via Leoncavallo);1Q
+PR0978;Via Parini (ang via F. Cilea);1Q
+PR1175;Provinciale Sestu;29
+PS0257;via Pessina (fronte Tribunale civ 18);10,6
+PS0258;Via Pessina (lato edicola fronte civ 11);6
+PS0263;via Pessina (incrocio via Scano civ.85);6
+PS0264;via Pessina (ang. via Taramelli);6
+PS0834;via del Pino Solitario (ang. via Sa Narba);19S,19,9A,9
+PS0835;via del Pino Solitario (ang. via Polveriera);19S,19,9A,9
+PS0867;via Pessina (Palazzo di Giustizia);10
+PT0203;via Petrarca (lato Upim);6
+PT0204;via Petrarca (fronte Upim);1,6,3
+PT1144;P.zza Pitagora;
+PU0122;via Puglia;16,3
+PV0428;Flumini ;1Q
+PV0429;S.P. Villasimius (loc. Santa Luria);1Q
+PV0430;S.P. Villasimius;1Q
+PV0431;S.P. Villasimius (loc. Costa d. Angeli lato mare);1Q
+PV0432;S.P. Villasimius (loc. Capitana civ. 257);1Q
+PV0433;S.P. Villasimius (loc. Capitana lato mare);1Q
+PV0434;S.P. Villasimius (loc. Riviera Capitana lato colli;1Q
+PV0435;S.P. Villasimius (loc. Riviera Capitana lato mare);1Q
+PV0436;S.P. Villasimius (Campeggio lato collina);1Q
+PV0437;S.P. Villasimius (Campeggio lato mare);1Q
+PV0438;S.P. Villasimius (Is Mortorius lato collina);1Q
+PV0439;S.P. Villasimius (Is Mortorius lato mare);1Q
+PV0440;S.P. Villasimius (loc. Salmaggi lato collina);1Q
+PV0441;S.P. Villasimius (loc. Salmaggi lato mare);1Q
+PV0472;S.P. Villasimius (ang. via Lago D'alserio);1Q
+PV0475;S.P. Villasimius (ang. via Lago Di Varese);1Q
+PV0687;Prolungamento Vesalio (ex Isgas);29S,29
+PV0772;Ponte Vittorio (Ist. Biologia);3
+PV1134;Città mercato Marconi (Prolungamento Vesalio);29S,29,15
+PV1181;Prolungamento Vesalio (lato Parco Terramaiani);29S,29
+PY0047;p.zza Yenne (ang. corso Vittorio E.);7,8N,58
+PY0056;p.zza Yenne (fornte via Azuni);8N,58
+PZ0697;via Pitz' e serra (pressi via Irlanda);1Q,41,PQ
+PZ0698;via Pitz' e serra (ang. via Inghilterra);
+PZ0704;via Pitz' e serra (ang. via Spagna);1Q,40,PQ
+PZ0705;Pitz' e serra (Danimarca);1Q,PQ
+PZ0708;via Pitz' E Serra (Liceo);1Q,2L
+PZ0709;via Pitz' e serra (Liceo);1Q,2L
+PZ0752;via Pitz' e serra (fronte sterrato Buon Cammino);1Q,2L
+PZ0753;via Pitz' e serra (ang. Ns Sigr. Buoncammino);1Q,2L
+PZ0993;Pitz' e serra (ang. via Vinola);1Q,2L
+PZ0996;via Pitz' e Serra (fronte via Vinola);1Q,2L
+PZ1258;Via Pizzetti (spiazzo);1Q
+PZ1259;Via Pizzetti (fronte spiazzo);1Q
+QR0032;via Quirra (lato Mercato);20
+QR0098;via Quirra (fronte Mercato Civico);20,58
+QU1271;Via Quartu;18
+RE0538;via del Redentore (Giardinetti);8H,8,M
+RE0821;via del Redentore (civ. N. 100);QSA,8H,8,M
+RE0837;Via Repubblica Decimo (direz stazione);9A,9
+RE0838;Via Repubblica (direz cagliari);9
+RE2012;Via della Resistenza;
+RG0857;via Raffa Garzia (civ. N. 13);10
+RG0864;via Raffa Garzia (fronte civ. N.15);10
+RL0053;viale Regina Elena (fronte Bastione Saint Remy;6,7
+RL0063;viale Regina Elena (lato Unione Sarda);6
+RL0064;viale Regina Elena (fronte Unione Sarda);6,7
+RL0066;viale Regina Elena (lato Belvedere Terrapieno);6,7
+RL0067;viale Regina Elena (Giardini Pubblici);6
+RL0749;viale Regina Elena (lato Bastione Saint Remy);6
+RM0024;via Roma (Molo Sanità);1,29S,29,PF,5,31,30,7,PQ,P,M
+RM0026;via Roma (fronte Chiesa);1,29,PF,5,31,30,9M,7,PQ,PFS,P,M
+RM0039;via Roma (ingresso laterale Stazione);5,9A,9
+RM0040;via Roma (fronte F.S);5,9A,9,8H,5S
+RM0655;via Riu Mortu (civ. N. 81);17,QSA,8H,8,M
+RM0665;via Riu Mortu (civ. N. 12);17
+RM0675;via Roma;17
+RM0734;via Roma ( Dogana);1,29S,29,PF,5,31,30,7,PQ,P,M
+RM0739;via Roma ;1,29,PF,5,31,30,9M,7,PQ,PFS,P,M
+RN0076;via Romagna;6
+RO0498;via Rosselli (ang. via Gallus);19,QSB,QSA,QS,31
+RO0844;via Rosselli (fronte civ. 35);19,QSB,QSA,QS,30
+RS0364;via Risorgimento (ang. via Mentana);1
+RS0510;via Rossini;1Q,41
+RS0688;via Risorgimento (fronte via Mentana);15
+RS0689;via Risorgimento (ang. p.zza Italia);15
+RS0812;via Risorgimento (civ 107, pressi Via G. Berchet );1
+RS1118;via Risorgimento (ang. via Vesalio);15
+RS1257;Via Rossini (civ.56);1Q
+RT0746;viale Regina Margherita (lato Hotel);6,7
+RT0748;viale Regina Margherita (lato ex Manifattura Tabac;6,7
+RV0237;via Riva Villasanta (ang. via Calamattia);9M,M
+RV0238;via Riva Villasanta (ang. via dei grilli);19S,19,M
+RV0243;via Riva Villasanta (fronte Via del Colle);9M,M
+RV0244;via Riva Villasanta (ang. via Randaccio);19S,19,QSB,QSA,QS,8H,8,M
+RV0556;via Riva Villasanta (lato uffici INPS);19S,19,QSB,QSA,QS,8H,8,M
+SA0057;via Santa Margherita (ang. via Azuni);8N,58
+SA0058;via Santa Margherita (Clinica Aresu);8N,58
+SA0595;Sulcitana Assemini (Km. 8);19S,19,9A,9
+SA0596;Sulcitana Assemini (Km.8);19S,19,9
+SA0730;Sulcitana Assemini (fronte via Moguru);19S,19,9
+SA0731;Sulcitana Assemini (ang via B. Sitzia);19S,19,9A,9
+SA1143;via Sassari;29
+SC0186;via Scano (fronte Clinica);3
+SC0187;via Scano (lato Clinica);3
+SC0259;via Scano (ang. via Cugia);3
+SC0260;via Scano (ang. via Vidal);3
+SC0261;via Scano (lato edicola);3
+SC0262;via Scano;3
+SD0615;Sulcitana Decimo (loc. su Carropu direz.Decimo);9A,9
+SD0616;Sulcitana Decimo (loc. su Carropu direz.Assemini);9
+SD0617;Sulcitana Decimo (ang. via Lazio);9A,9
+SD0618;Sulcitana Decimo (distributore Agip);9
+SD0639;Sulcitana Decimo (Km. 12,800 direz.Decimo);9A,9
+SD0839;Sulcitana;9
+SD1250;Via Salvo D'Acquisto (Capolinea);15
+SE0022;via XX Settembre ( ex Corte dei Conti);1,29S,29,M
+SE0023;via XX Settembre (civ 62, ang. via Lanusei);1,9M,M
+SE0469;p.zza Sant'Elena;
+SE0584;Sulcitana Elmas (fronte civ. N. 1);19S,19,9
+SE0586;Sulcitana Elmas (lato p.zza Suella);19S,19,9
+SE0587;Sulcitana Elmas (ang. via Pino Solitario);19S,19,9A,9
+SE0588;Sulcitana Elmas (ang. via del Mare);19S,19,9
+SE0589;Sulcitana Elmas (ang. via Marsala);19S,19,9A,9
+SE0590;Sulcitana Elmas (civ. N. 166);19S,19,9
+SE0591;Sulcitana Elmas (Distributore Esso);19S,19,9A,9
+SE0592;Sulcitana Elmas (fronte distributore Esso);19S,19,9
+SE0593;Sulcitana Elmas;19S,19,9A,9
+SE0594;Sulcitana Elmas (fronte via degli sportivi);19S,19,9
+SF1186;Via S.Fulgezio;29
+SF1256;Via S. Francesco (fronte officina);41
+SG0059;via San Giorgio;8N,58
+SG0542;via S.Gavino;8
+SG0818;via San Gavino (ang. via S. Angelo);8H,M
+SI0316;via Scirocco;3
+SI0477;via Sicilia;
+SL0614;S. Lucia (piazz. fronte cimitero), Capolinea 19;19S,19,9
+SM0106;P.zza S. Michele (angolo via Re di Puglia);1,20,8
+SM0108;p.zza San Michele (lato Chiesa);16,3
+SM0142;via S. Michele (fronte via Col di Lana);1
+SM0143;via S. Michele (ang. via Col di Lana);1,9A,9
+SM1110;P.zza Santa Maria (ang via Rossi Vitelli);
+SN0683;via San Nicola;17
+SO0019;via Sonnino (ang. via Alghero);1,29S,29,M
+SO0020;via Sonnino (Banca);1,9M,M
+SO0021;via Sonnino (P.zza Gramsci);1,9M,M
+SO0811;via Sonnino (Archivio di Stato);1,29S,29,M
+SP0036;via S.Paolo (fronte case FS);8G
+SP1169;via S. Paolo (passaggio a livello);8G
+SR0891;via Serbariu (ang .via C.Baudi di V.);
+SR1165;Via Sarcidano;19S,19,9A,9
+SS0677;via Don Orione;17
+SS0750;SS 554 (sotto cavalcavia pedonale);PQ
+SS0751;S.S.554 (lato edicola);PQ
+SS0946;via San Salvatore;17
+ST0213;via Stoccolma (ang. via Budapest);6
+ST0627;Via Stazione (Capolinea linea 9);9A,9
+ST0628;via Stendardi;15
+SV0343;Via Schiavazzi (fronte Lazzareto);6
+SV0344;Via Schiavazzi (lato Lazzareto);6
+SV0346;via Schiavazzi;6
+SV0347;via Schiavazzi ;6
+SV0541;via Schiavazzi (p.zza da Pigafetta);6
+SV0638;via Schiavazzi, ;6
+SV0642;via Schiavazzi (Scuola);6
+SV0645;via Schiavazzi (fronte Scuola);6
+SV0646;via Schiavazzi;6
+SV0901;Parcheggi Stadio (Capolinea fronte Mercato civico);6
+SV0902;via Schiavazzi (civ. N. 27);6
+SV0907;via Schiavazzi (fronte civ. N. 27);6
+TA0991;via Tasso;41
+TB0879;via Torbeno;13
+TC1104;Via E.Torricelli;29S,29
+TC1105;Via Torricelli;29S,29
+TI0873;via Trentino;13
+TM0442;Terra Mala (via delle Ninfee);1Q
+TN0152;via Trento (Regione);1
+TN0153;via Trento (ang. via Zara);1
+TN0154;p.zza Trento;10
+TN0155;via Trento (ang. viale Merello);10,1
+TO0073;via Toscana (fronte via Lavega);
+TO0876;via Toscana (civ. N. 20);13,6
+TR0311;via Tramontana (lato campo Rossi);3
+TS0041;viale Trieste (Chiesa);5,9A,9,8H,5S
+TS0150;viale Trieste (ang. via S. Paolo);10,9A,9
+TS0151;viale Trieste (fronte via S.Paolo);9A,9
+TS0160;viale Trieste (Ass.to Turismo);9A,9
+TS0161;viale Trieste (Assessorato Regionale);5,9A,9
+TS0162;viale Trieste (ang.via XXIX Novembre);5,9A,9,8H,5S
+TS0506;via Trieste (lato Poste);19,QSB,QSA,QS
+TS0507;via Trieste (fronte Poste);19,QSB,QSA,QS
+TS0526;via Trieste (ang. via Bezzecca);19,QSB,QSA,QS
+TS0527;via Trieste (lato Comune, giardino);19,QSB,QSA,QS
+TS0528;via Trieste (civ. N. 105);19,17,QSB,QSA,QS
+TS0529;viale Trieste (ang.via Tirana);19,17,QSB,QSA,QS
+TS0530;via Trieste (ang. via Galilei);19,17,QSB,QSA,QS
+TS0531;via Trieste (confine Monserrato, Selargius);19,17,QSB,QSA,QS
+TS0634;viale Trieste (fronte CTM);10,9A,9
+TS0635;viale Trieste (CTM);9A,9
+TS1149;via Tamburino Sardo;15
+TS1150;via Tamburino Sardo ;15
+TZ0200;via Tiziano (lato Mercato Civico);6
+TZ0201;via Tiziano (ang. via Alfieri);6
+UN0758;via UniversitË;7
+UV0830;Policlinico Universitario;29S,29,8
+VB0733;via Brotzu (ang. via Deliperi);1,19S,19
+VB0990;via Brotzu (ang. viu Binaghi);1,19S,19,QSB,QS
+VD0855;via Vidal (ang. Viale Europa);10
+VD0856;via Vidal (pressi via Besta);10
+VD0865;via Vidal (fronte via Besta);10
+VD0866;via Vidal (ang. Viale Europa) ;10
+VE0048;Corso Vittorio Emanuele (ang.p.zza Yenne);10,1,8
+VE0367;corso Vittorio Emanuele (civ 117, pressi via SS);10,1,8
+VE0368;corso Vittorio Emanuele (ang. via Palabanda);10,1,8
+VN0121;viale Monastir;9A,9
+VR0515;Via Verdi (civ. 35);
+VR0517;via Verdi (ang via Pirandello);40
+VR0656;via San Valeriano (fronte civ. N. 26);17,QSA,8H,8,M
+VR0664;via San Valeriano (fronte via Bingia Floris);17
+VR0998;via Verdi;41
+VS0247;via Vesalio (ang. via Flavio Gioia);1,29S,29
+VS0365;via Vesalio (pass. livello);1,29S,29
+VS0366;via Vesalio (ang. via G.Italia);1,29S,29
+VS0684;Via Vesalio;29S,29
+VS0685;Via Vesalio Pass.Livello;29S,29
+VV0945;via V. Veneto;17
+ZI1001;ZI Stabilimento ing. Contivecchi;Z
+ZI1002;ZI Stabilimento Enichem;Z
+ZI1003;ZI Sarda Service (inversione senso di marcia);Z
+ZI1004;ZI Stabilimento Bridgestone (fronte SANAC);Z
+ZI1005;ZI Cavalcavia VI Strada;Z
+ZI1006;ZI Protezione civile;Z
+ZI1007;ZI CASIC;Z
+ZI1008;AKHELA / STREAM;Z
+ZI1009;ZI NIVEA (lavanderia industriale);Z
+ZI1010;ZI Heineken (birreria);Z
+ZI1011;ZI (fronte NIVEA);Z
+ZI1012;ZI Stabilimento Ippocrate (fronte AKHELA);Z
+ZI1013;ZI SANAC;Z
+ZI1014;ZI Stabilimento Enichem ;Z
+ZI1015;ZI Stabilimento ing. Contivecchi ;Z
+ZU0532;Via Zuddas (civ. 194);QSA,8,M
