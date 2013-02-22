@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">CTMDroid</string>
-    <string name="app_version">1.1</string>
+    <string name="app_version">1.11</string>
     
     <string name="search_hint">Nome o numero fermata</string>
 	<string name="star_descr">Bottone preferiti</string>
