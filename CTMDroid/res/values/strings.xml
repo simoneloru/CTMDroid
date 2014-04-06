@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">CTMDroid</string>
-    <string name="app_version">1.11</string>
+    <string name="app_name">C.T.M.Droid</string>
+    <string name="app_version">1.12</string>
     
-    <string name="search_hint">Nome o numero fermata</string>
-	<string name="star_descr">Bottone preferiti</string>
-	<string name="no_results">Nessun risultato trovato</string>
-	<string name="dontShowAgain">Non mostrare al prossimo avvio</string>
-	<string name="messaggioDisclaimer">CTMDroid è un\'applicazione che utilizza i servizi di www.muovetevi.it per mostrare gli orari dei mezzi di trasporto pubblici. Imprecisioni negli orari sono dovute al servizio offerto da www.muovetevi.it o dal fatto che l\'ora del vostro cellulare non sia sincronizzata con l\'orario della rete dei trasporti pubblici.\nClicca sul "?" per visualizzare la guida.</string>
-	<string name="empty_fav">La lista dei preferiti è vuota.</string>
-	<string name="loading">Caricamento in corso</string>
-	<string name="unknowHost">Errore di connessione.</string>
-	<string name="unaviable_data">\n<b>Spiacenti, dati non disponibili.</b></string>
-	<string name="help_title">Guida</string>
-	<string name="help"><b>Ricerca orari.</b> \nLa ricerca rapida permette di visualizzare gli orari di transito entro un\'ora a partire da quando si seleziona la fermata.\n- Cliccare sulla lente d\'ingrandimento per cercare la fermata desiderata. Scrivendo il nome della fermata o il numero corrispondente presente in ogni fermata, vengono automaticamente suggerite le fermate presenti nel database. È comunque possibile cercare le fermate anche se non presenti nell\'elenco dei suggerimenti. Cliccare sulla fermata desiderata per visualizzare gli orari di transito.\n- Cliccando sulla stella nella barra vengono visualizzate le fermate preferite (se presenti). Cliccare sul nome della fermata per visualizzare gli orari di transito.\n\n<b>Preferiti.</b>\n- Quando viene visualizzato il nome di una fermata cliccare sulla stella a fianco al nome per aggiungere la fermata ai preferiti.\n- Per cancellare una fermata dai preferiti, deselezionare nella pagina dei preferiti la stella a fianco al nome della fermata.</string>
-	<string name="btn_chiudi">Chiudi</string>
-	<string name="btn_email">Invia un\'email allo sviluppatore</string>
+    <string name="search_hint">Bus stop number or name</string>
+	<string name="star_descr">Favourite Button</string>
+	<string name="no_results">No results found</string>
+	<string name="dontShowAgain">Don\'t show this anymore</string>
+	<string name="disclaimer">CTMDroid is an application that uses the services of www.muovetevi.it to show the schedules of public transport. Times are due to inaccuracies in the service offered by www.muovetevi.it or the fact that the time on your phone is not synchronized with the time of the public transport network. Click on the "?" to get help.</string>
+	<string name="empty_fav">Your favorite list is empty.</string>
+	<string name="loading">Loading...</string>
+	<string name="unknowHost">Network error.</string>
+	<string name="unaviable_data">\n<b>Sorry, data is not available.</b></string>
+	<string name="help_title">Help</string>
+	<string name="help"><b> Quick Search</b> \nThe Quick Search allows you to view transit times within an hour from when you select the stop.\n- Click on the magnifying glass to search for the desired stop. To find your bus stop you just need to type in the search bar the bus stop name o the bus stop number. I suggest to use the number, it\'s easiest and fastest, you can find it in the bus stop, it\'s written on a sticker with white font and blue background. Click on the desired stop to see transit times. \n- By clicking on the star bar displays the favorite stops (if any). \n\n<b>Favorites.</b>\n- When you see the name of a stop click on the star next to the bus stop name to add to favorites.\n- To delete a favorite stop, clear favorites in the page of the star next to the name of the stop.</string>
+	<string name="btn_chiudi">Close</string>
+	<string name="btn_email">Send an email to C.T.M.Droid developer</string>
 	<string name="email">ctmdroid.dev@gmail.com</string>
 	
 	

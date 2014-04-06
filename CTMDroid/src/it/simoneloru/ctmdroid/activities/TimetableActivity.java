@@ -28,6 +28,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
+import java.util.Locale;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -134,6 +135,10 @@ public class TimetableActivity extends Activity {
 					handleResponse.indexOf("<body"),
 					handleResponse.lastIndexOf("</body>"));
 			String homehtm = CTMDroidUtil.LoadFile("home.htm", getResources());
+			Locale locale = this.getResources().getConfiguration().locale;
+			if(!locale.equals(Locale.ITALY)){
+				body = CTMDroidUtil.bodyInEnglish(body);
+			}
 			homehtm = homehtm.replace("$placeholder$", body);
 			Log.i("CTM", homehtm);
 			resultWebView.loadDataWithBaseURL("file:///android-asset/",
