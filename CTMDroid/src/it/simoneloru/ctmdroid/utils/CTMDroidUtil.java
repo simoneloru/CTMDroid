@@ -112,5 +112,16 @@ public class CTMDroidUtil {
 		}
 			return query;
 	}
+	
+	public static String bodyInEnglish(String body){
+		body = body.replace("Previsione transiti", "Transits forecast");
+		body = body.replace("Fermata", "Bus stop");
+		body = body.replace("Dalle", "From");
+		body = body.replace("Alle", "To");
+		body = body.replace("Del", "Date");
+		body = body.replace("previsione in tempo reale", "real time forecast");
+		body = body.replace("Linea", "Line");
+		return body;
+	}
 
 }
